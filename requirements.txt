@@ -2,3 +2,9 @@ streamlit==1.50.0
 pandas==2.3.3
 altair==5.5.0
 openpyxl==3.1.5
+# Altair 5.5.0 は narwhals.from_native() に旧引数（eager_or_interchange_only・strict）を渡す。
+# narwhals 2.22 以降でこれらが廃止され、グラフ描画時に TypeError になるため固定する。
+# （Streamlit 1.50.0 は Altair 6 未満を要求するので、Altair 側は上げられない）
+narwhals==2.21.0
+# pandas 2.3.3 との組み合わせが検証済みの範囲に留める
+numpy>=1.26,<2.4

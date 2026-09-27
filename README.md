@@ -21,6 +21,8 @@ streamlit run streamlit_app.py
 
 無料枠のため、12時間アクセスがないとスリープし、次に開いた人は起動まで数十秒待つ。
 
+push のたびに GitHub Actions（`.github/workflows/test.yml`）が、公開環境と同じ Python 3.12／3.13 でデータの検査とアプリの起動テスト（`tests/test_app.py`）を行う。手元と公開環境では依存パッケージの版が違うことがあるため（2026年9月27日、Altair と narwhals の組み合わせで公開版だけが TypeError になった）、**CIが赤いときは公開中のアプリも壊れている可能性がある**。
+
 ---
 
 ## すぐ使う

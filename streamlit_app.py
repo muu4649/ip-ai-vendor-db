@@ -254,58 +254,67 @@ def counts_by_category(frame):
     return t
 
 
+def render_maps():
+    """工程マップのグラフ2点。サイドバーの絞り込み結果 H を使う"""
+    st.markdown("##### 工程ごとの社数")
+    st.caption("濃い部分は、その工程を代表的な機能としている社。薄い部分は、対応はしているが主力ではない社。")
+    t = counts_by_category(H)
+    order_labels = [f"{c} {TITLE[c]}" for c in CAT_IDS]
+    totals = t.groupby("工程", as_index=False)["社数"].sum()
+    base = alt.Chart(t).encode(y=alt.Y("工程:N", sort=order_labels, title=None,
+                                      axis=alt.Axis(labelLimit=260, ticks=False, domain=False)))
+    bars = base.mark_bar(stroke=SURFACE, strokeWidth=2).encode(
+        x=alt.X("sum(社数):Q", title="社数", axis=alt.Axis(tickMinStep=1, grid=True)),
+        color=alt.Color("区分:N", scale=alt.Scale(domain=["代表的な工程", "対応している工程"],
+                                                  range=[C_PRIMARY, C_SECONDARY]),
+                        legend=alt.Legend(orient="top", title=None)),
+        order=alt.Order("区分:N", sort="ascending"),
+        tooltip=["工程:N", "区分:N", "社数:Q"])
+    labels = alt.Chart(totals).mark_text(align="left", dx=6, color="#52514e", fontSize=12).encode(
+        y=alt.Y("工程:N", sort=order_labels), x="社数:Q", text="社数:Q")
+    st.altair_chart((bars + labels).properties(height=34 * len(CAT_IDS)), use_container_width=True)
+    with st.expander("表で見る"):
+        pv = t.pivot_table(index="工程", columns="区分", values="社数", aggfunc="sum", fill_value=0)
+        pv = pv.reindex([l for l in order_labels if l in pv.index])
+        pv["合計"] = pv.sum(axis=1)
+        st.dataframe(pv, width="stretch")
+
+    st.markdown("##### 工程 × 地域")
+    st.caption("マスの色が濃いほど社数が多い。空白のマスは0社。対応している工程も含めて数えている。")
+    x = VC[VC.vendor_id.isin(H.vendor_id)].merge(H[["vendor_id", "region"]], on="vendor_id")
+    hm = x.groupby(["cat_id", "region"]).size().rename("社数").reset_index()
+    hm["工程"] = hm.cat_id.map(lambda c: f"{c} {TITLE[c]}")
+    vmax = int(hm["社数"].max())
+    base = alt.Chart(hm).encode(
+        y=alt.Y("工程:N", sort=order_labels, title=None,
+                axis=alt.Axis(labelLimit=260, ticks=False, domain=False)),
+        x=alt.X("region:N", sort=REGIONS, title=None,
+                axis=alt.Axis(orient="top", labelAngle=0, ticks=False, domain=False)))
+    rect = base.mark_rect(stroke=SURFACE, strokeWidth=2, cornerRadius=3).encode(
+        color=alt.Color("社数:Q", scale=alt.Scale(range=SEQ_RAMP, domain=[0, vmax]),
+                        legend=alt.Legend(title="社数", orient="right", gradientLength=160)),
+        tooltip=["工程:N", alt.Tooltip("region:N", title="地域"), "社数:Q"])
+    text = base.mark_text(fontSize=12).encode(
+        text="社数:Q",
+        color=alt.condition(f"datum['社数'] >= {max(2, vmax * 0.55):.1f}",
+                            alt.value("#ffffff"), alt.value("#17202c")))
+    st.altair_chart((rect + text).properties(height=30 * len(CAT_IDS)), use_container_width=True)
+    with st.expander("表で見る"):
+        pv2 = hm.pivot_table(index="工程", columns="region", values="社数", fill_value=0)
+        pv2 = pv2.reindex(index=[l for l in order_labels if l in pv2.index],
+                          columns=[r for r in REGIONS if r in pv2.columns])
+        st.dataframe(pv2.astype(int), width="stretch")
+
+
 with tab_map:
     if H.empty:
         st.info("該当するベンダーがないため、グラフを描けません。")
     else:
-        st.markdown("##### 工程ごとの社数")
-        st.caption("濃い部分は、その工程を代表的な機能としている社。薄い部分は、対応はしているが主力ではない社。")
-        t = counts_by_category(H)
-        order_labels = [f"{c} {TITLE[c]}" for c in CAT_IDS]
-        totals = t.groupby("工程", as_index=False)["社数"].sum()
-        base = alt.Chart(t).encode(y=alt.Y("工程:N", sort=order_labels, title=None,
-                                          axis=alt.Axis(labelLimit=260, ticks=False, domain=False)))
-        bars = base.mark_bar(stroke=SURFACE, strokeWidth=2).encode(
-            x=alt.X("sum(社数):Q", title="社数", axis=alt.Axis(tickMinStep=1, grid=True)),
-            color=alt.Color("区分:N", scale=alt.Scale(domain=["代表的な工程", "対応している工程"],
-                                                      range=[C_PRIMARY, C_SECONDARY]),
-                            legend=alt.Legend(orient="top", title=None)),
-            order=alt.Order("区分:N", sort="ascending"),
-            tooltip=["工程:N", "区分:N", "社数:Q"])
-        labels = alt.Chart(totals).mark_text(align="left", dx=6, color="#52514e", fontSize=12).encode(
-            y=alt.Y("工程:N", sort=order_labels), x="社数:Q", text="社数:Q")
-        st.altair_chart((bars + labels).properties(height=34 * len(CAT_IDS)), use_container_width=True)
-        with st.expander("表で見る"):
-            pv = t.pivot_table(index="工程", columns="区分", values="社数", aggfunc="sum", fill_value=0)
-            pv = pv.reindex([l for l in order_labels if l in pv.index])
-            pv["合計"] = pv.sum(axis=1)
-            st.dataframe(pv, width="stretch")
-
-        st.markdown("##### 工程 × 地域")
-        st.caption("マスの色が濃いほど社数が多い。空白のマスは0社。対応している工程も含めて数えている。")
-        x = VC[VC.vendor_id.isin(H.vendor_id)].merge(H[["vendor_id", "region"]], on="vendor_id")
-        hm = x.groupby(["cat_id", "region"]).size().rename("社数").reset_index()
-        hm["工程"] = hm.cat_id.map(lambda c: f"{c} {TITLE[c]}")
-        vmax = int(hm["社数"].max())
-        base = alt.Chart(hm).encode(
-            y=alt.Y("工程:N", sort=order_labels, title=None,
-                    axis=alt.Axis(labelLimit=260, ticks=False, domain=False)),
-            x=alt.X("region:N", sort=REGIONS, title=None,
-                    axis=alt.Axis(orient="top", labelAngle=0, ticks=False, domain=False)))
-        rect = base.mark_rect(stroke=SURFACE, strokeWidth=2, cornerRadius=3).encode(
-            color=alt.Color("社数:Q", scale=alt.Scale(range=SEQ_RAMP, domain=[0, vmax]),
-                            legend=alt.Legend(title="社数", orient="right", gradientLength=160)),
-            tooltip=["工程:N", alt.Tooltip("region:N", title="地域"), "社数:Q"])
-        text = base.mark_text(fontSize=12).encode(
-            text="社数:Q",
-            color=alt.condition(f"datum['社数'] >= {max(2, vmax * 0.55):.1f}",
-                                alt.value("#ffffff"), alt.value("#17202c")))
-        st.altair_chart((rect + text).properties(height=30 * len(CAT_IDS)), use_container_width=True)
-        with st.expander("表で見る"):
-            pv2 = hm.pivot_table(index="工程", columns="region", values="社数", fill_value=0)
-            pv2 = pv2.reindex(index=[l for l in order_labels if l in pv2.index],
-                              columns=[r for r in REGIONS if r in pv2.columns])
-            st.dataframe(pv2.astype(int), width="stretch")
+        try:
+            render_maps()
+        except Exception as exc:  # グラフの不具合で一覧やダウンロードまで止めない
+            st.warning(f"グラフを描画できませんでした（{type(exc).__name__}）。"
+                       "一覧とダウンロードは引き続き使えます。")
 
 
 # ---------------------------------------------------------------------------
