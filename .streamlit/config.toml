@@ -1,9 +1,10 @@
 [theme]
+# LeXi/Vent の配色（lexi2vent.com の表示から計測。2026-09-27）
 base = "light"
-primaryColor = "#256abf"
-backgroundColor = "#fcfcfb"
-secondaryBackgroundColor = "#f1f3f5"
-textColor = "#17202c"
+primaryColor = "#1e5a9f"
+backgroundColor = "#f8f7f6"
+secondaryBackgroundColor = "#efedea"
+textColor = "#333333"
 font = "sans serif"
 
 [browser]

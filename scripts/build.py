@@ -5,7 +5,7 @@ data/*.csv からデータベースと配布用ファイルを再生成する。
     python3 scripts/build.py
 
 入力  : data/vendors.csv, categories.csv, vendor_categories.csv,
-        exhibitions.csv, excluded.csv
+        attributes.csv, vendor_attributes.csv, exhibitions.csv, excluded.csv
 出力  : db/ipai.sqlite            SQLite（SQLで引く用）
         export/vendors_full.csv   1行1社のフラットCSV（Excel用）
         export/vendors.json       Webツール・記事生成用
@@ -28,6 +28,8 @@ DBFILE = DB / "ipai.sqlite"
 
 SCHEMA = """
 DROP VIEW  IF EXISTS v_vendor_full;
+DROP TABLE IF EXISTS vendor_attributes;
+DROP TABLE IF EXISTS attributes;
 DROP TABLE IF EXISTS vendor_categories;
 DROP TABLE IF EXISTS exhibitions;
 DROP TABLE IF EXISTS excluded;
@@ -35,7 +37,10 @@ DROP TABLE IF EXISTS vendors;
 DROP TABLE IF EXISTS categories;
 
 CREATE TABLE categories(
-  cat_id TEXT PRIMARY KEY, phase TEXT, title TEXT, subtitle TEXT, sort INTEGER);
+  cat_id TEXT PRIMARY KEY, phase TEXT, title TEXT, short TEXT, subtitle TEXT, sort INTEGER);
+
+CREATE TABLE attributes(
+  attr_id TEXT PRIMARY KEY, label TEXT, short TEXT, definition TEXT, sort INTEGER);
 
 CREATE TABLE vendors(
   vendor_id TEXT PRIMARY KEY, name TEXT NOT NULL UNIQUE, region TEXT, country TEXT,
@@ -50,6 +55,14 @@ CREATE TABLE vendor_categories(
   PRIMARY KEY(vendor_id, cat_id),
   FOREIGN KEY(vendor_id) REFERENCES vendors(vendor_id),
   FOREIGN KEY(cat_id)   REFERENCES categories(cat_id));
+
+CREATE TABLE vendor_attributes(
+  vendor_id TEXT, attr_id TEXT,
+  value TEXT,                      -- あり / なし / 未確認（行がない組み合わせも未確認）
+  source TEXT, checked_at TEXT, note TEXT,
+  PRIMARY KEY(vendor_id, attr_id),
+  FOREIGN KEY(vendor_id) REFERENCES vendors(vendor_id),
+  FOREIGN KEY(attr_id)   REFERENCES attributes(attr_id));
 
 CREATE TABLE exhibitions(
   exh_id TEXT PRIMARY KEY, event TEXT, year INTEGER, venue TEXT, period TEXT,
@@ -77,6 +90,11 @@ SELECT v.vendor_id, v.name, v.region, v.country, v.deployment,
          WHERE vc.vendor_id = v.vendor_id AND vc.role = '主' ORDER BY c.sort) AS primary_categories,
        (SELECT group_concat(vc.cat_id, ',')
           FROM vendor_categories vc WHERE vc.vendor_id = v.vendor_id AND vc.role = '主') AS primary_cat_ids,
+       COALESCE((SELECT value FROM vendor_attributes a WHERE a.vendor_id = v.vendor_id AND a.attr_id = 'ja'), '未確認') AS ja,
+       COALESCE((SELECT value FROM vendor_attributes a WHERE a.vendor_id = v.vendor_id AND a.attr_id = 'onprem'), '未確認') AS onprem,
+       COALESCE((SELECT value FROM vendor_attributes a WHERE a.vendor_id = v.vendor_id AND a.attr_id = 'no_training'), '未確認') AS no_training,
+       COALESCE((SELECT value FROM vendor_attributes a WHERE a.vendor_id = v.vendor_id AND a.attr_id = 'trial'), '未確認') AS trial,
+       COALESCE((SELECT value FROM vendor_attributes a WHERE a.vendor_id = v.vendor_id AND a.attr_id = 'pricing'), '未確認') AS pricing,
        e.booth, e.exhibit_name, e.exhibit_note, e.event AS exhibited_at
   FROM vendors v
   LEFT JOIN exhibitions e ON e.vendor_id = v.vendor_id
@@ -84,11 +102,13 @@ SELECT v.vendor_id, v.name, v.region, v.country, v.deployment,
 """
 
 TABLES = {
-    "categories": ["cat_id", "phase", "title", "subtitle", "sort"],
+    "categories": ["cat_id", "phase", "title", "short", "subtitle", "sort"],
     "vendors": ["vendor_id", "name", "region", "country", "url", "description",
                 "deployment", "is_mcp", "is_new_2026", "status", "first_listed",
                 "updated_at", "note"],
     "vendor_categories": ["vendor_id", "cat_id", "role", "source", "checked_at"],
+    "attributes": ["attr_id", "label", "short", "definition", "sort"],
+    "vendor_attributes": ["vendor_id", "attr_id", "value", "source", "checked_at", "note"],
     "exhibitions": ["exh_id", "event", "year", "venue", "period", "vendor_id",
                     "vendor_name", "booth", "exhibit_name", "exhibit_note"],
     "excluded": ["excluded_id", "name", "kind", "reason", "checked_at"],
@@ -128,6 +148,23 @@ def validate(tbl):
     for r in tbl["exhibitions"]:
         if r["vendor_id"] and r["vendor_id"] not in ids:
             errs.append(f"exhibitions: 存在しない vendor_id {r['vendor_id']}")
+
+    # 導入条件：値は3種類に限り、「あり」「なし」には根拠を必須にする
+    aids = {a["attr_id"] for a in tbl["attributes"]}
+    seen = set()
+    for r in tbl["vendor_attributes"]:
+        key = (r["vendor_id"], r["attr_id"])
+        if r["vendor_id"] not in ids:
+            errs.append(f"vendor_attributes: 存在しない vendor_id {r['vendor_id']}")
+        if r["attr_id"] not in aids:
+            errs.append(f"vendor_attributes: 存在しない attr_id {r['attr_id']}")
+        if key in seen:
+            errs.append(f"vendor_attributes: 重複 {r['vendor_id']} {r['attr_id']}")
+        seen.add(key)
+        if r["value"] not in ("あり", "なし", "未確認"):
+            errs.append(f"vendor_attributes: value は あり/なし/未確認 のみ（{r['vendor_id']} {r['attr_id']}: {r['value']}）")
+        if r["value"] in ("あり", "なし") and not r.get("source"):
+            errs.append(f"vendor_attributes: 根拠のない判定 {r['vendor_id']} {r['attr_id']}")
 
     linked = {r["vendor_id"] for r in tbl["vendor_categories"]}
     for v in tbl["vendors"]:
@@ -178,8 +215,11 @@ def export_csv(con):
 
 
 def export_json(con, tbl):
-    cats = [dict(cat_id=r["cat_id"], phase=r["phase"], title=r["title"],
+    cats = [dict(cat_id=r["cat_id"], phase=r["phase"], title=r["title"], short=r["short"],
                  subtitle=r["subtitle"], sort=int(r["sort"])) for r in tbl["categories"]]
+    attrs = [dict(attr_id=r["attr_id"], label=r["label"], short=r["short"],
+                  definition=r["definition"], sort=int(r["sort"])) for r in tbl["attributes"]]
+    attr_ids = [a["attr_id"] for a in attrs]
     con.row_factory = sqlite3.Row
     vendors = []
     for r in con.execute("SELECT * FROM v_vendor_full ORDER BY cat_ids, name"):
@@ -189,6 +229,8 @@ def export_json(con, tbl):
             "deployment": r["deployment"], "cats": sorted((r["cat_ids"] or "").split(",")),
             "primary": sorted((r["primary_cat_ids"] or "").split(",")) if r["primary_cat_ids"] else [],
             "mcp": bool(r["is_mcp"]), "new": bool(r["is_new_2026"]),
+            # 導入条件は「未確認」を省き、あり／なしだけを持たせる
+            "attrs": {a: r[a] for a in attr_ids if r[a] != "未確認"},
         }
         if r["booth"]:
             d["booth"] = r["booth"]
@@ -211,6 +253,7 @@ def export_json(con, tbl):
             "basis": "AI・生成AIを組み込んだ製品またはサービスを公開情報で確認できたベンダーに限る",
         },
         "categories": cats,
+        "attributes": attrs,
         "vendors": vendors,
         "excluded": [dict(name=r["name"], kind=r["kind"], reason=r["reason"])
                      for r in tbl["excluded"]],
@@ -253,6 +296,29 @@ def export_xlsx(con):
             cell.alignment = Alignment(vertical="top", wrap_text=True)
     ws.freeze_panes = "B2"
     ws.auto_filter.ref = f"A1:{get_column_letter(len(cols))}{len(rows)+1}"
+
+    # 導入条件の根拠（1行1判定）
+    cur = con.execute("""
+        SELECT v.name, a.label, va.value, va.note, va.source, va.checked_at
+          FROM vendor_attributes va
+          JOIN vendors v ON v.vendor_id = va.vendor_id
+          JOIN attributes a ON a.attr_id = va.attr_id
+         WHERE v.status = 'active'
+         ORDER BY v.name, a.sort""")
+    ev_cols = ["name", "attribute", "value", "note", "source", "checked_at"]
+    ws2 = wb.create_sheet("attributes_evidence")
+    ws2.append(ev_cols)
+    ev_rows = cur.fetchall()
+    for r in ev_rows:
+        ws2.append(list(r))
+    for c in range(1, len(ev_cols) + 1):
+        cell = ws2.cell(1, c)
+        cell.font = Font(bold=True, color="FFFFFF")
+        cell.fill = head
+    for i, w_ in enumerate([26, 30, 9, 60, 50, 12], start=1):
+        ws2.column_dimensions[get_column_letter(i)].width = w_
+    ws2.freeze_panes = "B2"
+    ws2.auto_filter.ref = f"A1:{get_column_letter(len(ev_cols))}{len(ev_rows)+1}"
     wb.save(EXPORT / "vendors.xlsx")
     return len(rows)
 
@@ -276,6 +342,10 @@ def main():
     print("■ 再生成しました")
     print(f"  ベンダー {m['vendors']}社 / カテゴリ {m['cats']} / "
           f"フェア出展 {m['exhibitors']}社 / 対象外 {m['excluded']}件")
+    counts = "・".join(
+        f"{a['short']} {sum(1 for v in data['vendors'] if v['attrs'].get(a['attr_id']) == 'あり')}"
+        for a in data["attributes"])
+    print(f"  導入条件（あり）: {counts}")
     print(f"  db/ipai.sqlite")
     print(f"  export/vendors_full.csv（{n}行）")
     print(f"  export/exhibitors_2026.csv")
