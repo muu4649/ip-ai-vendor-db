@@ -12,8 +12,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        # Streamlit Community Cloud で選べる版に合わせる
-        python-version: ["3.12", "3.13"]
+        # 公開中のアプリは 3.14。Community Cloud で選べる版のうち、依存パッケージが動く版を並べる
+        python-version: ["3.12", "3.13", "3.14"]
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-python@v7

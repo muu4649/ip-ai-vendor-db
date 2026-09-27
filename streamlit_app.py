@@ -38,7 +38,7 @@ SURFACE = "#fcfcfb"
 SEQ_RAMP = ["#cde2fb", "#9ec5f4", "#6da7ec", "#3987e5", "#256abf", "#184f95", "#0d366b"]
 
 st.set_page_config(page_title=APP_NAME, page_icon=":material/travel_explore:",
-                   layout="wide", initial_sidebar_state="expanded")
+                   layout="wide", initial_sidebar_state="auto")
 
 
 # ---------------------------------------------------------------------------
@@ -258,6 +258,12 @@ def render_maps():
     """工程マップのグラフ2点。サイドバーの絞り込み結果 H を使う"""
     st.markdown("##### 工程ごとの社数")
     st.caption("濃い部分は、その工程を代表的な機能としている社。薄い部分は、対応はしているが主力ではない社。")
+    # 凡例はグラフの外に置く（Vegaの上部凡例は、狭い画面だと右端が切れるため）
+    st.markdown(
+        '<div style="font-size:0.875rem;margin-bottom:0.25rem">'
+        f'<span style="color:{C_PRIMARY}">■</span> 代表的な工程&emsp;'
+        f'<span style="color:{C_SECONDARY}">■</span> 対応している工程</div>',
+        unsafe_allow_html=True)
     t = counts_by_category(H)
     order_labels = [f"{c} {TITLE[c]}" for c in CAT_IDS]
     totals = t.groupby("工程", as_index=False)["社数"].sum()
@@ -267,12 +273,12 @@ def render_maps():
         x=alt.X("sum(社数):Q", title="社数", axis=alt.Axis(tickMinStep=1, grid=True)),
         color=alt.Color("区分:N", scale=alt.Scale(domain=["代表的な工程", "対応している工程"],
                                                   range=[C_PRIMARY, C_SECONDARY]),
-                        legend=alt.Legend(orient="top", title=None)),
+                        legend=None),
         order=alt.Order("区分:N", sort="ascending"),
         tooltip=["工程:N", "区分:N", "社数:Q"])
     labels = alt.Chart(totals).mark_text(align="left", dx=6, color="#52514e", fontSize=12).encode(
         y=alt.Y("工程:N", sort=order_labels), x="社数:Q", text="社数:Q")
-    st.altair_chart((bars + labels).properties(height=34 * len(CAT_IDS)), use_container_width=True)
+    st.altair_chart((bars + labels).properties(height=34 * len(CAT_IDS)), width="stretch")
     with st.expander("表で見る"):
         pv = t.pivot_table(index="工程", columns="区分", values="社数", aggfunc="sum", fill_value=0)
         pv = pv.reindex([l for l in order_labels if l in pv.index])
@@ -280,25 +286,32 @@ def render_maps():
         st.dataframe(pv, width="stretch")
 
     st.markdown("##### 工程 × 地域")
-    st.caption("マスの色が濃いほど社数が多い。空白のマスは0社。対応している工程も含めて数えている。")
     x = VC[VC.vendor_id.isin(H.vendor_id)].merge(H[["vendor_id", "region"]], on="vendor_id")
     hm = x.groupby(["cat_id", "region"]).size().rename("社数").reset_index()
     hm["工程"] = hm.cat_id.map(lambda c: f"{c} {TITLE[c]}")
     vmax = int(hm["社数"].max())
+    # 狭い画面では列見出しが間引かれることがあるので、列の並びを文章でも示す
+    cols = [r for r in REGIONS if r in set(hm.region)]
+    st.caption(f"列は左から {'／'.join(cols)}。マスの数字が社数で、色が濃いほど多い。"
+               "空白のマスは0社。対応している工程も含めて数えている。")
     base = alt.Chart(hm).encode(
         y=alt.Y("工程:N", sort=order_labels, title=None,
                 axis=alt.Axis(labelLimit=260, ticks=False, domain=False)),
+        # 「アジア・他」だけ長いので2行に折る。幅800px程度でも4列の見出しが収まる
+        # （スマホ幅では間引かれるので、上の説明文で列の並びを示している）
         x=alt.X("region:N", sort=REGIONS, title=None,
-                axis=alt.Axis(orient="top", labelAngle=0, ticks=False, domain=False)))
+                axis=alt.Axis(orient="top", labelAngle=0, ticks=False, domain=False,
+                              labelFontSize=11,
+                              labelExpr="datum.value == 'アジア・他' ? ['アジア・', '他'] : datum.value")))
+    # 色の凡例は置かない。各マスに社数を書いているので、凡例の幅をマスに回す（スマホで列が潰れていた）
     rect = base.mark_rect(stroke=SURFACE, strokeWidth=2, cornerRadius=3).encode(
-        color=alt.Color("社数:Q", scale=alt.Scale(range=SEQ_RAMP, domain=[0, vmax]),
-                        legend=alt.Legend(title="社数", orient="right", gradientLength=160)),
+        color=alt.Color("社数:Q", scale=alt.Scale(range=SEQ_RAMP, domain=[0, vmax]), legend=None),
         tooltip=["工程:N", alt.Tooltip("region:N", title="地域"), "社数:Q"])
     text = base.mark_text(fontSize=12).encode(
         text="社数:Q",
         color=alt.condition(f"datum['社数'] >= {max(2, vmax * 0.55):.1f}",
                             alt.value("#ffffff"), alt.value("#17202c")))
-    st.altair_chart((rect + text).properties(height=30 * len(CAT_IDS)), use_container_width=True)
+    st.altair_chart((rect + text).properties(height=30 * len(CAT_IDS)), width="stretch")
     with st.expander("表で見る"):
         pv2 = hm.pivot_table(index="工程", columns="region", values="社数", fill_value=0)
         pv2 = pv2.reindex(index=[l for l in order_labels if l in pv2.index],

@@ -12,7 +12,7 @@
 
 できること：キーワード検索、属性（フェア出展・MCP対応・2026年更新・オンプレミス）・地域・工程での絞り込み、工程ごとの根拠の表示、工程別の社数と工程×地域の集計グラフ、フェア出展社のブース順一覧、絞り込み結果のCSV／Excel／JSONダウンロード。
 
-ローカルで動かす：
+ローカルで動かす（Python 3.11 以上が必要）：
 
 ```bash
 pip install -r requirements.txt
@@ -21,7 +21,7 @@ streamlit run streamlit_app.py
 
 無料枠のため、12時間アクセスがないとスリープし、次に開いた人は起動まで数十秒待つ。
 
-push のたびに GitHub Actions（`.github/workflows/test.yml`）が、公開環境と同じ Python 3.12／3.13 でデータの検査とアプリの起動テスト（`tests/test_app.py`）を行う。手元と公開環境では依存パッケージの版が違うことがあるため（2026年9月27日、Altair と narwhals の組み合わせで公開版だけが TypeError になった）、**CIが赤いときは公開中のアプリも壊れている可能性がある**。
+push のたびに GitHub Actions（`.github/workflows/test.yml`）が、Python 3.12／3.13／3.14 でデータの検査とアプリの起動テスト（`tests/test_app.py`）を行う。公開中のアプリは Python 3.14 で動いている。Community Cloud では **Python の版をデプロイ後に変えられず**、変えるにはアプリを削除して作り直す必要がある（[公式ドキュメント](https://docs.streamlit.io/deploy/streamlit-community-cloud/manage-your-app/upgrade-python)、2026年9月27日確認）。2026年9月27日には、手元（Python 3.9）とCI（当時は 3.12／3.13 のみ）では動いていたのに、公開環境の 3.14 でだけ Altair 5.5.0 の読み込みが TypeError になった。**CIが赤いときは公開中のアプリも壊れている可能性がある**。
 
 ---
 

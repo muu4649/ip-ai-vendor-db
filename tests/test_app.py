@@ -43,6 +43,15 @@ def test_category_filter_primary_only():
     assert_clean(at)
 
 
+def test_region_filter_heatmap_caption():
+    """地域で絞ったとき、工程×地域の説明文が、残った列だけを並べる"""
+    at = run_app()
+    at.multiselect(key="regions").set_value(["欧州", "北米"]).run()
+    assert_clean(at)
+    assert any(c.value.startswith("列は左から 北米／欧州。") for c in at.caption), \
+        [c.value for c in at.caption]
+
+
 def test_no_hits():
     """該当なしのときも例外にならない"""
     at = run_app()

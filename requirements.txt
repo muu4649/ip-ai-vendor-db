@@ -1,10 +1,13 @@
-streamlit==1.50.0
+# 公開中のアプリは Python 3.14 で動いている（2026年9月27日のエラーログで確認）。
+# Altair 5.x は Python 3.14 だと import した時点で TypeError になる
+#   （typing.TypedDict に closed 引数を渡すため）。3.14 で読み込める Altair 6.3.0 を使い、
+#   Altair 6 を許容する Streamlit 1.64.0 に上げている（Streamlit 1.50.0 は Altair 6 未満を要求）。
+# この組み合わせには Python 3.11 以上が必要（Altair 6.3.0・numpy 2.3 の要件）。
+streamlit==1.64.0
 pandas==2.3.3
-altair==5.5.0
+altair==6.3.0
 openpyxl==3.1.5
-# Altair 5.5.0 は narwhals.from_native() に旧引数（eager_or_interchange_only・strict）を渡す。
-# narwhals 2.22 以降でこれらが廃止され、グラフ描画時に TypeError になるため固定する。
-# （Streamlit 1.50.0 は Altair 6 未満を要求するので、Altair 側は上げられない）
-narwhals==2.21.0
+# グラフへのデータ受け渡しに使う。CI（Python 3.12〜3.14）で検証した版に固定する
+narwhals==2.26.0
 # pandas 2.3.3 との組み合わせが検証済みの範囲に留める
 numpy>=1.26,<2.4
