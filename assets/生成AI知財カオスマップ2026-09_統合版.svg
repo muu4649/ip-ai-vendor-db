@@ -1,0 +1,1739 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2560" height="2495" viewBox="0 0 2560 2495">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#080d1a"/>
+    <stop offset="45%" stop-color="#0b1426"/>
+    <stop offset="100%" stop-color="#0a1020"/>
+  </linearGradient>
+  <linearGradient id="cardbg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0.035"/>
+    <stop offset="100%" stop-color="#ffffff" stop-opacity="0.012"/>
+  </linearGradient>
+  <linearGradient id="titleline" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#38bdf8"/>
+    <stop offset="55%" stop-color="#a78bfa"/>
+    <stop offset="100%" stop-color="#fb7185" stop-opacity="0.15"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.18"/>
+    <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="1" fill="#ffffff" fill-opacity="0.028"/>
+  </pattern>
+</defs>
+<rect width="2560" height="2495" fill="url(#bg)"/>
+<rect width="2560" height="2495" fill="url(#grid)"/>
+<ellipse cx="563.2" cy="120" rx="700" ry="300" fill="url(#glow)"/>
+<ellipse cx="2201.6" cy="2295" rx="620" ry="280" fill="url(#glow)" opacity="0.6"/>
+<text x="64" y="86" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="49" font-weight="600" letter-spacing="0.5" fill="#ffffff">生成AI × 知財ベンダー カオスマップ 2026.9［統合版］</text>
+<text x="64" y="127" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="19" fill="#9fb3d6">グローバルと日本を1枚に。発明の創出から権利行使、実装体制までの18工程を俯瞰する。</text>
+<rect x="64" y="146" width="2432" height="2.5" rx="1.25" fill="url(#titleline)"/>
+<rect x="64" y="168" width="111" height="34" rx="17" fill="#ffffff" fill-opacity="0.05" stroke="#38bdf8" stroke-opacity="0.32" stroke-width="0.9"/>
+<text x="82" y="191" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="17" font-weight="700" fill="#38bdf8">18</text>
+<text x="105" y="191" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.5" fill="#a8bad9">カテゴリ</text>
+<rect x="187.04000000000002" y="168" width="144" height="34" rx="17" fill="#ffffff" fill-opacity="0.05" stroke="#38bdf8" stroke-opacity="0.32" stroke-width="0.9"/>
+<text x="205.04000000000002" y="191" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="17" font-weight="700" fill="#38bdf8">149</text>
+<text x="238" y="191" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.5" fill="#a8bad9">掲載社・団体</text>
+<rect x="343.35" y="168" width="121" height="34" rx="17" fill="#ffffff" fill-opacity="0.05" stroke="#38bdf8" stroke-opacity="0.32" stroke-width="0.9"/>
+<text x="361.35" y="191" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="17" font-weight="700" fill="#38bdf8">242</text>
+<text x="394" y="191" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.5" fill="#a8bad9">延べ掲載</text>
+<text x="2496" y="86" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="15" text-anchor="end" fill="#7f92b5">2026年9月版（グローバル＋日本 統合）</text>
+<text x="2496" y="112" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="14" text-anchor="end" fill="#5f719a">LeXi/Vent ｜ 上村 侑太郎</text>
+<rect x="64" y="225" width="4" height="16" rx="2" fill="#22d3ee"/>
+<text x="80" y="239" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="14.5" font-weight="600" letter-spacing="1.2" fill="#22d3ee">PHASE 1　創出</text>
+<rect x="212" y="233" width="2284" height="1" fill="#22d3ee" fill-opacity="0.18"/>
+<g>
+<rect x="64" y="250" width="593" height="387" rx="14" fill="url(#cardbg)" stroke="#22d3ee" stroke-opacity="0.28" stroke-width="1.1"/>
+<rect x="64" y="250" width="593" height="66" rx="14" fill="#22d3ee" fill-opacity="0.07"/>
+<rect x="64" y="302" width="593" height="14" fill="#22d3ee" fill-opacity="0.07"/>
+<rect x="64" y="316" width="593" height="1" fill="#22d3ee" fill-opacity="0.24"/>
+<rect x="64" y="250" width="4" height="66" fill="#22d3ee" fill-opacity="0.85"/>
+<rect x="80" y="265" width="34" height="21" rx="5.5" fill="#22d3ee" fill-opacity="0.18" stroke="#22d3ee" stroke-opacity="0.55" stroke-width="0.8"/>
+<text x="97" y="280" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.5" font-weight="700" text-anchor="middle" fill="#22d3ee">01</text>
+<text x="124" y="281" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="17.5" font-weight="600" fill="#f4f8ff">発明創出・R&amp;Dスカウティング</text>
+<text x="641" y="281" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="15" font-weight="700" text-anchor="end" fill="#22d3ee" fill-opacity="0.9">19</text>
+<text x="124" y="300" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="11.6" fill="#93a6c8">何を発明するかをAIが提案する</text>
+<g>
+<rect x="79" y="328" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="79" y="328" width="3" height="25" rx="1.5" fill="#34d399"/>
+<text x="90" y="345" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">PatSnap</text>
+<rect x="322" y="334" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="335" y="343.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+<rect x="292" y="334" width="26" height="13" rx="3.2" fill="#22d3ee" fill-opacity="0.16" stroke="#22d3ee" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="305" y="343.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#22d3ee">MCP</text>
+</g>
+<g>
+<rect x="79" y="358" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="79" y="358" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="90" y="375" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">IP.com</text>
+</g>
+<g>
+<rect x="79" y="388" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="79" y="388" width="3" height="25" rx="1.5" fill="#a5b4fc"/>
+<text x="90" y="405" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">ITONICS</text>
+</g>
+<g>
+<rect x="79" y="418" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="79" y="418" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="90" y="435" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Wellspring</text>
+</g>
+<g>
+<rect x="79" y="448" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="79" y="448" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="90" y="465" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Cypris</text>
+</g>
+<g>
+<rect x="79" y="478" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="79" y="478" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="90" y="495" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Ankar AI</text>
+</g>
+<g>
+<rect x="79" y="508" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="79" y="508" width="3" height="25" rx="1.5" fill="#a5b4fc"/>
+<text x="90" y="525" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Lightbringer</text>
+<rect x="322" y="514" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="335" y="523.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="79" y="538" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="79" y="538" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="90" y="555" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">yet2</text>
+</g>
+<g>
+<rect x="79" y="568" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="79" y="568" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="90" y="585" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">NineSigma</text>
+</g>
+<g>
+<rect x="79" y="598" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="79" y="598" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="90" y="615" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">アスタミューゼ</text>
+</g>
+<g>
+<rect x="364" y="328" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="364" y="328" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="375" y="345" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">NTTデータ</text>
+<rect x="607" y="334" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="620" y="343.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="364" y="358" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="364" y="358" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="375" y="375" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">HackCamp</text>
+<rect x="607" y="364" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="620" y="373.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="364" y="388" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="364" y="388" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="375" y="405" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">NTTコミュニケーションズ</text>
+<rect x="607" y="394" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="620" y="403.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="364" y="418" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="364" y="418" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="375" y="435" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">aiip</text>
+<rect x="607" y="424" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="620" y="433.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="364" y="448" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="364" y="448" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="375" y="465" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Genzo AI</text>
+</g>
+<g>
+<rect x="364" y="478" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="364" y="478" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="375" y="495" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">AIDAO</text>
+<rect x="607" y="484" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="620" y="493.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="364" y="508" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="364" y="508" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="375" y="525" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">AI Samurai</text>
+</g>
+<g>
+<rect x="364" y="538" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="364" y="538" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="375" y="555" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">TechnoProducer</text>
+</g>
+<g>
+<rect x="364" y="568" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="364" y="568" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="375" y="585" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">amplified ai</text>
+<rect x="607" y="574" width="26" height="13" rx="3.2" fill="#22d3ee" fill-opacity="0.16" stroke="#22d3ee" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="620" y="583.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#22d3ee">MCP</text>
+</g>
+</g>
+<g>
+<rect x="677" y="250" width="593" height="237" rx="14" fill="url(#cardbg)" stroke="#22d3ee" stroke-opacity="0.28" stroke-width="1.1"/>
+<rect x="677" y="250" width="593" height="66" rx="14" fill="#22d3ee" fill-opacity="0.07"/>
+<rect x="677" y="302" width="593" height="14" fill="#22d3ee" fill-opacity="0.07"/>
+<rect x="677" y="316" width="593" height="1" fill="#22d3ee" fill-opacity="0.24"/>
+<rect x="677" y="250" width="4" height="66" fill="#22d3ee" fill-opacity="0.85"/>
+<rect x="693" y="265" width="34" height="21" rx="5.5" fill="#22d3ee" fill-opacity="0.18" stroke="#22d3ee" stroke-opacity="0.55" stroke-width="0.8"/>
+<text x="710" y="280" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.5" font-weight="700" text-anchor="middle" fill="#22d3ee">02</text>
+<text x="737" y="281" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="17.5" font-weight="600" fill="#f4f8ff">発明開示・IDF</text>
+<text x="1254" y="281" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="15" font-weight="700" text-anchor="end" fill="#22d3ee" fill-opacity="0.9">9</text>
+<text x="737" y="300" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="11.6" fill="#93a6c8">発明者ヒアリングと提案書化の自動化</text>
+<g>
+<rect x="692" y="328" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="692" y="328" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="703" y="345" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Patlytics</text>
+</g>
+<g>
+<rect x="692" y="358" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="692" y="358" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="703" y="375" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">DeepIP</text>
+</g>
+<g>
+<rect x="692" y="388" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="692" y="388" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="703" y="405" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Solve Intelligence</text>
+</g>
+<g>
+<rect x="692" y="418" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="692" y="418" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="703" y="435" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Genzo AI</text>
+</g>
+<g>
+<rect x="692" y="448" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="692" y="448" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="703" y="465" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">aiip</text>
+<rect x="935" y="454" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="948" y="463.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="977" y="328" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="977" y="328" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="988" y="345" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">AIDAO</text>
+<rect x="1220" y="334" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1233" y="343.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="977" y="358" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="977" y="358" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="988" y="375" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">NTTコミュニケーションズ</text>
+<rect x="1220" y="364" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1233" y="373.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="977" y="388" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="977" y="388" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="988" y="405" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Wellspring</text>
+</g>
+<g>
+<rect x="977" y="418" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="977" y="418" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="988" y="435" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">IP.com</text>
+</g>
+</g>
+<g>
+<rect x="1290" y="250" width="593" height="597" rx="14" fill="url(#cardbg)" stroke="#22d3ee" stroke-opacity="0.28" stroke-width="1.1"/>
+<rect x="1290" y="250" width="593" height="66" rx="14" fill="#22d3ee" fill-opacity="0.07"/>
+<rect x="1290" y="302" width="593" height="14" fill="#22d3ee" fill-opacity="0.07"/>
+<rect x="1290" y="316" width="593" height="1" fill="#22d3ee" fill-opacity="0.24"/>
+<rect x="1290" y="250" width="4" height="66" fill="#22d3ee" fill-opacity="0.85"/>
+<rect x="1306" y="265" width="34" height="21" rx="5.5" fill="#22d3ee" fill-opacity="0.18" stroke="#22d3ee" stroke-opacity="0.55" stroke-width="0.8"/>
+<text x="1323" y="280" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.5" font-weight="700" text-anchor="middle" fill="#22d3ee">03</text>
+<text x="1350" y="281" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="17.5" font-weight="600" fill="#f4f8ff">特許検索・先行技術調査</text>
+<text x="1867" y="281" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="15" font-weight="700" text-anchor="end" fill="#22d3ee" fill-opacity="0.9">33</text>
+<text x="1350" y="300" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="11.6" fill="#93a6c8">最大の激戦区。検索から推論へ</text>
+<g>
+<rect x="1305" y="328" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1305" y="328" width="3" height="25" rx="1.5" fill="#34d399"/>
+<text x="1316" y="345" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">PatSnap</text>
+<rect x="1548" y="334" width="26" height="13" rx="3.2" fill="#22d3ee" fill-opacity="0.16" stroke="#22d3ee" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1561" y="343.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#22d3ee">MCP</text>
+</g>
+<g>
+<rect x="1305" y="358" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1305" y="358" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1316" y="375" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Clarivate</text>
+<rect x="1548" y="364" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1561" y="373.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+<rect x="1518" y="364" width="26" height="13" rx="3.2" fill="#22d3ee" fill-opacity="0.16" stroke="#22d3ee" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1531" y="373.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#22d3ee">MCP</text>
+</g>
+<g>
+<rect x="1305" y="388" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1305" y="388" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1316" y="405" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">LexisNexis</text>
+</g>
+<g>
+<rect x="1305" y="418" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1305" y="418" width="3" height="25" rx="1.5" fill="#a5b4fc"/>
+<text x="1316" y="435" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Questel</text>
+<rect x="1548" y="424" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1561" y="433.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="1305" y="448" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1305" y="448" width="3" height="25" rx="1.5" fill="#a5b4fc"/>
+<text x="1316" y="465" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">IPRally</text>
+<rect x="1548" y="454" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1561" y="463.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="1305" y="478" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1305" y="478" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="1316" y="495" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">amplified ai</text>
+<rect x="1548" y="484" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1561" y="493.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+<rect x="1518" y="484" width="26" height="13" rx="3.2" fill="#22d3ee" fill-opacity="0.16" stroke="#22d3ee" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1531" y="493.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#22d3ee">MCP</text>
+</g>
+<g>
+<rect x="1305" y="508" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1305" y="508" width="3" height="25" rx="1.5" fill="#34d399"/>
+<text x="1316" y="525" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">wert intelligence</text>
+<rect x="1548" y="514" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1561" y="523.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="1305" y="538" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1305" y="538" width="3" height="25" rx="1.5" fill="#34d399"/>
+<text x="1316" y="555" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">XLSCOUT</text>
+</g>
+<g>
+<rect x="1305" y="568" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1305" y="568" width="3" height="25" rx="1.5" fill="#34d399"/>
+<text x="1316" y="585" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">PatSeer Technologies</text>
+</g>
+<g>
+<rect x="1305" y="598" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1305" y="598" width="3" height="25" rx="1.5" fill="#34d399"/>
+<text x="1316" y="615" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">GreyB</text>
+</g>
+<g>
+<rect x="1305" y="628" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1305" y="628" width="3" height="25" rx="1.5" fill="#34d399"/>
+<text x="1316" y="645" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Ambercite</text>
+</g>
+<g>
+<rect x="1305" y="658" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1305" y="658" width="3" height="25" rx="1.5" fill="#a5b4fc"/>
+<text x="1316" y="675" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Minesoft</text>
+</g>
+<g>
+<rect x="1305" y="688" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1305" y="688" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1316" y="705" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Anaqua</text>
+</g>
+<g>
+<rect x="1305" y="718" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1305" y="718" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1316" y="735" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">NLPatent</text>
+</g>
+<g>
+<rect x="1305" y="748" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1305" y="748" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1316" y="765" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">CAS</text>
+<rect x="1548" y="754" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1561" y="763.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="1305" y="778" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1305" y="778" width="3" height="25" rx="1.5" fill="#34d399"/>
+<text x="1316" y="795" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">WIPS</text>
+</g>
+<g>
+<rect x="1305" y="808" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1305" y="808" width="3" height="25" rx="1.5" fill="#34d399"/>
+<text x="1316" y="825" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">incoPat</text>
+</g>
+<g>
+<rect x="1590" y="328" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1590" y="328" width="3" height="25" rx="1.5" fill="#34d399"/>
+<text x="1601" y="345" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Patentics</text>
+</g>
+<g>
+<rect x="1590" y="358" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1590" y="358" width="3" height="25" rx="1.5" fill="#34d399"/>
+<text x="1601" y="375" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">SooPAT</text>
+</g>
+<g>
+<rect x="1590" y="388" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1590" y="388" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1601" y="405" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">PQAI</text>
+</g>
+<g>
+<rect x="1590" y="418" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1590" y="418" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="1601" y="435" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Patentfield</text>
+<rect x="1833" y="424" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1846" y="433.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="1590" y="448" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1590" y="448" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="1601" y="465" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">パテント・インテグレーション</text>
+<rect x="1833" y="454" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1846" y="463.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+<rect x="1803" y="454" width="26" height="13" rx="3.2" fill="#22d3ee" fill-opacity="0.16" stroke="#22d3ee" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1816" y="463.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#22d3ee">MCP</text>
+</g>
+<g>
+<rect x="1590" y="478" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1590" y="478" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="1601" y="495" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">AI Samurai</text>
+<rect x="1833" y="484" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1846" y="493.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+<rect x="1803" y="484" width="26" height="13" rx="3.2" fill="#22d3ee" fill-opacity="0.16" stroke="#22d3ee" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1816" y="493.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#22d3ee">MCP</text>
+</g>
+<g>
+<rect x="1590" y="508" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1590" y="508" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="1601" y="525" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">AIVisor</text>
+<rect x="1833" y="514" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1846" y="523.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="1590" y="538" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1590" y="538" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="1601" y="555" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">パナソニック デジタル</text>
+</g>
+<g>
+<rect x="1590" y="568" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1590" y="568" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="1601" y="585" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">日本パテントデータサービス</text>
+</g>
+<g>
+<rect x="1590" y="598" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1590" y="598" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="1601" y="615" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">発明通信社</text>
+</g>
+<g>
+<rect x="1590" y="628" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1590" y="628" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="1601" y="645" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">日立社会情報サービス</text>
+</g>
+<g>
+<rect x="1590" y="658" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1590" y="658" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="1601" y="675" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">アイ・ピー・ファイン</text>
+</g>
+<g>
+<rect x="1590" y="688" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1590" y="688" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="1601" y="705" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">アクアプラネット</text>
+<rect x="1833" y="694" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1846" y="703.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="1590" y="718" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1590" y="718" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="1601" y="735" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">日本特許情報機構</text>
+</g>
+<g>
+<rect x="1590" y="748" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1590" y="748" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="1601" y="765" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">リーガルテック</text>
+<rect x="1833" y="754" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1846" y="763.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="1590" y="778" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1590" y="778" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1601" y="795" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">化学情報協会</text>
+<rect x="1833" y="784" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1846" y="793.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+</g>
+<g>
+<rect x="1903" y="250" width="593" height="537" rx="14" fill="url(#cardbg)" stroke="#22d3ee" stroke-opacity="0.28" stroke-width="1.1"/>
+<rect x="1903" y="250" width="593" height="66" rx="14" fill="#22d3ee" fill-opacity="0.07"/>
+<rect x="1903" y="302" width="593" height="14" fill="#22d3ee" fill-opacity="0.07"/>
+<rect x="1903" y="316" width="593" height="1" fill="#22d3ee" fill-opacity="0.24"/>
+<rect x="1903" y="250" width="4" height="66" fill="#22d3ee" fill-opacity="0.85"/>
+<rect x="1919" y="265" width="34" height="21" rx="5.5" fill="#22d3ee" fill-opacity="0.18" stroke="#22d3ee" stroke-opacity="0.55" stroke-width="0.8"/>
+<text x="1936" y="280" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.5" font-weight="700" text-anchor="middle" fill="#22d3ee">04</text>
+<text x="1963" y="281" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="17.5" font-weight="600" fill="#f4f8ff">明細書作成・出願支援</text>
+<text x="2480" y="281" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="15" font-weight="700" text-anchor="end" fill="#22d3ee" fill-opacity="0.9">29</text>
+<text x="1963" y="300" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="11.6" fill="#93a6c8">AIが書き、人が責任を持つへ</text>
+<g>
+<rect x="1918" y="328" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1918" y="328" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1929" y="345" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Patlytics</text>
+<rect x="2161" y="334" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="2174" y="343.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="1918" y="358" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1918" y="358" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1929" y="375" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Solve Intelligence</text>
+<rect x="2161" y="364" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="2174" y="373.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="1918" y="388" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1918" y="388" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1929" y="405" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">DeepIP</text>
+<rect x="2161" y="394" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="2174" y="403.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="1918" y="418" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1918" y="418" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1929" y="435" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Ankar AI</text>
+</g>
+<g>
+<rect x="1918" y="448" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1918" y="448" width="3" height="25" rx="1.5" fill="#a5b4fc"/>
+<text x="1929" y="465" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Questel</text>
+<rect x="2161" y="454" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="2174" y="463.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="1918" y="478" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1918" y="478" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1929" y="495" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Clarivate</text>
+</g>
+<g>
+<rect x="1918" y="508" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1918" y="508" width="3" height="25" rx="1.5" fill="#a5b4fc"/>
+<text x="1929" y="525" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Anaqua</text>
+</g>
+<g>
+<rect x="1918" y="538" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1918" y="538" width="3" height="25" rx="1.5" fill="#34d399"/>
+<text x="1929" y="555" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">XLSCOUT</text>
+</g>
+<g>
+<rect x="1918" y="568" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1918" y="568" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1929" y="585" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">PatentPal</text>
+</g>
+<g>
+<rect x="1918" y="598" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1918" y="598" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1929" y="615" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Specifio</text>
+</g>
+<g>
+<rect x="1918" y="628" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1918" y="628" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1929" y="645" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">PowerPatent</text>
+</g>
+<g>
+<rect x="1918" y="658" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1918" y="658" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1929" y="675" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Patently</text>
+</g>
+<g>
+<rect x="1918" y="688" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1918" y="688" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1929" y="705" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Patentext</text>
+</g>
+<g>
+<rect x="1918" y="718" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1918" y="718" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1929" y="735" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Edge</text>
+</g>
+<g>
+<rect x="1918" y="748" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1918" y="748" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1929" y="765" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Leegal AI</text>
+</g>
+<g>
+<rect x="2203" y="328" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="2203" y="328" width="3" height="25" rx="1.5" fill="#a5b4fc"/>
+<text x="2214" y="345" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Alphalect.ai</text>
+</g>
+<g>
+<rect x="2203" y="358" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="2203" y="358" width="3" height="25" rx="1.5" fill="#a5b4fc"/>
+<text x="2214" y="375" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Lightbringer</text>
+<rect x="2446" y="364" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="2459" y="373.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="2203" y="388" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="2203" y="388" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="2214" y="405" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">ユアサポ</text>
+<rect x="2446" y="394" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="2459" y="403.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="2203" y="418" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="2203" y="418" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="2214" y="435" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">トランスエヌ</text>
+<rect x="2446" y="424" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="2459" y="433.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="2203" y="448" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="2203" y="448" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="2214" y="465" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">アイビーリサーチ</text>
+<rect x="2446" y="454" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="2459" y="463.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="2203" y="478" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="2203" y="478" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="2214" y="495" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">aiip</text>
+<rect x="2446" y="484" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="2459" y="493.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="2203" y="508" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="2203" y="508" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="2214" y="525" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">AI Samurai</text>
+</g>
+<g>
+<rect x="2203" y="538" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="2203" y="538" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="2214" y="555" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Smart-IP</text>
+</g>
+<g>
+<rect x="2203" y="568" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="2203" y="568" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="2214" y="585" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Genzo AI</text>
+</g>
+<g>
+<rect x="2203" y="598" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="2203" y="598" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="2214" y="615" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">アイ・アール・ディー</text>
+</g>
+<g>
+<rect x="2203" y="628" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="2203" y="628" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="2214" y="645" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">フューチャーアーキテクト</text>
+</g>
+<g>
+<rect x="2203" y="658" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="2203" y="658" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="2214" y="675" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">ASU</text>
+</g>
+<g>
+<rect x="2203" y="688" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="2203" y="688" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="2214" y="705" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">リーガルテック</text>
+<rect x="2446" y="694" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="2459" y="703.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="2203" y="718" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="2203" y="718" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="2214" y="735" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">アイパクトリ</text>
+<rect x="2446" y="724" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="2459" y="733.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+</g>
+<rect x="64" y="880" width="4" height="16" rx="2" fill="#60a5fa"/>
+<text x="80" y="894" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="14.5" font-weight="600" letter-spacing="1.2" fill="#60a5fa">PHASE 2　権利化</text>
+<rect x="227" y="888" width="2269" height="1" fill="#60a5fa" fill-opacity="0.18"/>
+<g>
+<rect x="64" y="905" width="593" height="297" rx="14" fill="url(#cardbg)" stroke="#60a5fa" stroke-opacity="0.28" stroke-width="1.1"/>
+<rect x="64" y="905" width="593" height="66" rx="14" fill="#60a5fa" fill-opacity="0.07"/>
+<rect x="64" y="957" width="593" height="14" fill="#60a5fa" fill-opacity="0.07"/>
+<rect x="64" y="971" width="593" height="1" fill="#60a5fa" fill-opacity="0.24"/>
+<rect x="64" y="905" width="4" height="66" fill="#60a5fa" fill-opacity="0.85"/>
+<rect x="80" y="920" width="34" height="21" rx="5.5" fill="#60a5fa" fill-opacity="0.18" stroke="#60a5fa" stroke-opacity="0.55" stroke-width="0.8"/>
+<text x="97" y="935" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.5" font-weight="700" text-anchor="middle" fill="#60a5fa">05</text>
+<text x="124" y="936" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="17.5" font-weight="600" fill="#f4f8ff">中間対応・OA応答</text>
+<text x="641" y="936" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="15" font-weight="700" text-anchor="end" fill="#60a5fa" fill-opacity="0.9">14</text>
+<text x="124" y="955" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="11.6" fill="#93a6c8">拒絶理由通知への反論をAIが下書き</text>
+<g>
+<rect x="79" y="983" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="79" y="983" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="90" y="1000" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">DeepIP</text>
+<rect x="322" y="989" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="335" y="998.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="79" y="1013" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="79" y="1013" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="90" y="1030" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Patlytics</text>
+</g>
+<g>
+<rect x="79" y="1043" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="79" y="1043" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="90" y="1060" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Solve Intelligence</text>
+</g>
+<g>
+<rect x="79" y="1073" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="79" y="1073" width="3" height="25" rx="1.5" fill="#a5b4fc"/>
+<text x="90" y="1090" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Questel</text>
+<rect x="322" y="1079" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="335" y="1088.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="79" y="1103" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="79" y="1103" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="90" y="1120" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">LexisNexis</text>
+</g>
+<g>
+<rect x="79" y="1133" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="79" y="1133" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="90" y="1150" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">PowerPatent</text>
+</g>
+<g>
+<rect x="79" y="1163" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="79" y="1163" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="90" y="1180" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">aiip</text>
+<rect x="322" y="1169" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="335" y="1178.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="364" y="983" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="364" y="983" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="375" y="1000" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">ユアサポ</text>
+<rect x="607" y="989" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="620" y="998.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="364" y="1013" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="364" y="1013" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="375" y="1030" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">AI Samurai</text>
+<rect x="607" y="1019" width="26" height="13" rx="3.2" fill="#22d3ee" fill-opacity="0.16" stroke="#22d3ee" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="620" y="1028.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#22d3ee">MCP</text>
+</g>
+<g>
+<rect x="364" y="1043" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="364" y="1043" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="375" y="1060" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">アイビーリサーチ</text>
+</g>
+<g>
+<rect x="364" y="1073" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="364" y="1073" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="375" y="1090" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">ASU</text>
+<rect x="607" y="1079" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="620" y="1088.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="364" y="1103" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="364" y="1103" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="375" y="1120" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">IPTech弁理士法人</text>
+</g>
+<g>
+<rect x="364" y="1133" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="364" y="1133" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="375" y="1150" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">鷲田国際特許事務所</text>
+</g>
+<g>
+<rect x="364" y="1163" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="364" y="1163" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="375" y="1180" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">スズエ国際特許事務所</text>
+<rect x="607" y="1169" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="620" y="1178.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+</g>
+<g>
+<rect x="677" y="905" width="593" height="327" rx="14" fill="url(#cardbg)" stroke="#60a5fa" stroke-opacity="0.28" stroke-width="1.1"/>
+<rect x="677" y="905" width="593" height="66" rx="14" fill="#60a5fa" fill-opacity="0.07"/>
+<rect x="677" y="957" width="593" height="14" fill="#60a5fa" fill-opacity="0.07"/>
+<rect x="677" y="971" width="593" height="1" fill="#60a5fa" fill-opacity="0.24"/>
+<rect x="677" y="905" width="4" height="66" fill="#60a5fa" fill-opacity="0.85"/>
+<rect x="693" y="920" width="34" height="21" rx="5.5" fill="#60a5fa" fill-opacity="0.18" stroke="#60a5fa" stroke-opacity="0.55" stroke-width="0.8"/>
+<text x="710" y="935" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.5" font-weight="700" text-anchor="middle" fill="#60a5fa">06</text>
+<text x="737" y="936" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="17.5" font-weight="600" fill="#f4f8ff">特許校正・翻訳・図面</text>
+<text x="1254" y="936" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="15" font-weight="700" text-anchor="end" fill="#60a5fa" fill-opacity="0.9">16</text>
+<text x="737" y="955" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="11.6" fill="#93a6c8">日本市場で最も層が厚い領域</text>
+<g>
+<rect x="692" y="983" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="692" y="983" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="703" y="1000" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">LexisNexis</text>
+</g>
+<g>
+<rect x="692" y="1013" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="692" y="1013" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="703" y="1030" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">ClaimMaster</text>
+</g>
+<g>
+<rect x="692" y="1043" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="692" y="1043" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="703" y="1060" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Patent Bots</text>
+</g>
+<g>
+<rect x="692" y="1073" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="692" y="1073" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="703" y="1090" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">PatentDrawAI</text>
+</g>
+<g>
+<rect x="692" y="1103" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="692" y="1103" width="3" height="25" rx="1.5" fill="#a5b4fc"/>
+<text x="703" y="1120" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">RWS</text>
+<rect x="935" y="1109" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="948" y="1118.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="692" y="1133" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="692" y="1133" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="703" y="1150" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">TransPerfect</text>
+</g>
+<g>
+<rect x="692" y="1163" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="692" y="1163" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="703" y="1180" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Azami Global</text>
+</g>
+<g>
+<rect x="692" y="1193" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="692" y="1193" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="703" y="1210" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Clarivate</text>
+</g>
+<g>
+<rect x="977" y="983" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="977" y="983" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="988" y="1000" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">川村インターナショナル</text>
+<rect x="1220" y="989" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1233" y="998.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="977" y="1013" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="977" y="1013" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="988" y="1030" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">ロゼッタ</text>
+<rect x="1220" y="1019" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1233" y="1028.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="977" y="1043" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="977" y="1043" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="988" y="1060" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">翻訳センター</text>
+<rect x="1220" y="1049" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1233" y="1058.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="977" y="1073" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="977" y="1073" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="988" y="1090" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">AIBS</text>
+<rect x="1220" y="1079" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1233" y="1088.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="977" y="1103" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="977" y="1103" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="988" y="1120" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">AI特許翻訳</text>
+<rect x="1220" y="1109" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1233" y="1118.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="977" y="1133" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="977" y="1133" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="988" y="1150" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">サン・フレア</text>
+</g>
+<g>
+<rect x="977" y="1163" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="977" y="1163" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="988" y="1180" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">知財コーポレーション</text>
+</g>
+<g>
+<rect x="977" y="1193" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="977" y="1193" width="3" height="25" rx="1.5" fill="#a5b4fc"/>
+<text x="988" y="1210" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Questel</text>
+</g>
+</g>
+<g>
+<rect x="1290" y="905" width="593" height="387" rx="14" fill="url(#cardbg)" stroke="#60a5fa" stroke-opacity="0.28" stroke-width="1.1"/>
+<rect x="1290" y="905" width="593" height="66" rx="14" fill="#60a5fa" fill-opacity="0.07"/>
+<rect x="1290" y="957" width="593" height="14" fill="#60a5fa" fill-opacity="0.07"/>
+<rect x="1290" y="971" width="593" height="1" fill="#60a5fa" fill-opacity="0.24"/>
+<rect x="1290" y="905" width="4" height="66" fill="#60a5fa" fill-opacity="0.85"/>
+<rect x="1306" y="920" width="34" height="21" rx="5.5" fill="#60a5fa" fill-opacity="0.18" stroke="#60a5fa" stroke-opacity="0.55" stroke-width="0.8"/>
+<text x="1323" y="935" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.5" font-weight="700" text-anchor="middle" fill="#60a5fa">07</text>
+<text x="1350" y="936" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="17.5" font-weight="600" fill="#f4f8ff">特許分析・ポートフォリオ</text>
+<text x="1867" y="936" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="15" font-weight="700" text-anchor="end" fill="#60a5fa" fill-opacity="0.9">19</text>
+<text x="1350" y="955" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="11.6" fill="#93a6c8">経営指標としての知財可視化</text>
+<g>
+<rect x="1305" y="983" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1305" y="983" width="3" height="25" rx="1.5" fill="#a5b4fc"/>
+<text x="1316" y="1000" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">LexisNexis</text>
+<rect x="1548" y="989" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1561" y="998.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="1305" y="1013" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1305" y="1013" width="3" height="25" rx="1.5" fill="#34d399"/>
+<text x="1316" y="1030" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">PatSnap</text>
+</g>
+<g>
+<rect x="1305" y="1043" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1305" y="1043" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1316" y="1060" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Clarivate</text>
+<rect x="1548" y="1049" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1561" y="1058.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+<rect x="1518" y="1049" width="26" height="13" rx="3.2" fill="#22d3ee" fill-opacity="0.16" stroke="#22d3ee" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1531" y="1058.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#22d3ee">MCP</text>
+</g>
+<g>
+<rect x="1305" y="1073" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1305" y="1073" width="3" height="25" rx="1.5" fill="#a5b4fc"/>
+<text x="1316" y="1090" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Minesoft</text>
+</g>
+<g>
+<rect x="1305" y="1103" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1305" y="1103" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1316" y="1120" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Patlytics</text>
+</g>
+<g>
+<rect x="1305" y="1133" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1305" y="1133" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1316" y="1150" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Cypris</text>
+</g>
+<g>
+<rect x="1305" y="1163" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1305" y="1163" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1316" y="1180" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">anovIP</text>
+</g>
+<g>
+<rect x="1305" y="1193" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1305" y="1193" width="3" height="25" rx="1.5" fill="#34d399"/>
+<text x="1316" y="1210" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">wert intelligence</text>
+<rect x="1548" y="1199" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1561" y="1208.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="1305" y="1223" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1305" y="1223" width="3" height="25" rx="1.5" fill="#34d399"/>
+<text x="1316" y="1240" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">ウィズドメイン</text>
+</g>
+<g>
+<rect x="1305" y="1253" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1305" y="1253" width="3" height="25" rx="1.5" fill="#34d399"/>
+<text x="1316" y="1270" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">WIPS</text>
+</g>
+<g>
+<rect x="1590" y="983" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1590" y="983" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="1601" y="1000" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">VALUENEX</text>
+</g>
+<g>
+<rect x="1590" y="1013" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1590" y="1013" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="1601" y="1030" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">パテント・リザルト</text>
+</g>
+<g>
+<rect x="1590" y="1043" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1590" y="1043" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="1601" y="1060" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">エムニ</text>
+</g>
+<g>
+<rect x="1590" y="1073" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1590" y="1073" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="1601" y="1090" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">IPdash Intelligence</text>
+<rect x="1833" y="1079" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1846" y="1088.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="1590" y="1103" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1590" y="1103" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="1601" y="1120" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">プロパティ</text>
+<rect x="1833" y="1109" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1846" y="1118.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="1590" y="1133" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1590" y="1133" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="1601" y="1150" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">アイ・ピー・ファイン</text>
+<rect x="1833" y="1139" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1846" y="1148.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="1590" y="1163" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1590" y="1163" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="1601" y="1180" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">日本パテントデータサービス</text>
+</g>
+<g>
+<rect x="1590" y="1193" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1590" y="1193" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="1601" y="1210" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">日立製作所</text>
+</g>
+<g>
+<rect x="1590" y="1223" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1590" y="1223" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="1601" y="1240" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">ユーザベース</text>
+</g>
+</g>
+<g>
+<rect x="1903" y="905" width="593" height="237" rx="14" fill="url(#cardbg)" stroke="#60a5fa" stroke-opacity="0.28" stroke-width="1.1"/>
+<rect x="1903" y="905" width="593" height="66" rx="14" fill="#60a5fa" fill-opacity="0.07"/>
+<rect x="1903" y="957" width="593" height="14" fill="#60a5fa" fill-opacity="0.07"/>
+<rect x="1903" y="971" width="593" height="1" fill="#60a5fa" fill-opacity="0.24"/>
+<rect x="1903" y="905" width="4" height="66" fill="#60a5fa" fill-opacity="0.85"/>
+<rect x="1919" y="920" width="34" height="21" rx="5.5" fill="#60a5fa" fill-opacity="0.18" stroke="#60a5fa" stroke-opacity="0.55" stroke-width="0.8"/>
+<text x="1936" y="935" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.5" font-weight="700" text-anchor="middle" fill="#60a5fa">08</text>
+<text x="1963" y="936" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="17.5" font-weight="600" fill="#f4f8ff">特許価値評価・知財流通</text>
+<text x="2480" y="936" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="15" font-weight="700" text-anchor="end" fill="#60a5fa" fill-opacity="0.9">9</text>
+<text x="1963" y="955" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="11.6" fill="#93a6c8">眠る特許を値付けし動かす</text>
+<g>
+<rect x="1918" y="983" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1918" y="983" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1929" y="1000" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">PricePatent</text>
+</g>
+<g>
+<rect x="1918" y="1013" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1918" y="1013" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1929" y="1030" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">ArcPrime</text>
+</g>
+<g>
+<rect x="1918" y="1043" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1918" y="1043" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1929" y="1060" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">ktMINE</text>
+</g>
+<g>
+<rect x="1918" y="1073" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1918" y="1073" width="3" height="25" rx="1.5" fill="#a5b4fc"/>
+<text x="1929" y="1090" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">LexisNexis</text>
+</g>
+<g>
+<rect x="1918" y="1103" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1918" y="1103" width="3" height="25" rx="1.5" fill="#34d399"/>
+<text x="1929" y="1120" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">GreyB</text>
+</g>
+<g>
+<rect x="2203" y="983" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="2203" y="983" width="3" height="25" rx="1.5" fill="#34d399"/>
+<text x="2214" y="1000" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Piece Future</text>
+<rect x="2446" y="989" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="2459" y="998.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="2203" y="1013" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="2203" y="1013" width="3" height="25" rx="1.5" fill="#34d399"/>
+<text x="2214" y="1030" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">ウィズドメイン</text>
+</g>
+<g>
+<rect x="2203" y="1043" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="2203" y="1043" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="2214" y="1060" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">IPリッチ</text>
+<rect x="2446" y="1049" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="2459" y="1058.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="2203" y="1073" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="2203" y="1073" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="2214" y="1090" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">アクロソフト</text>
+<rect x="2446" y="1079" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="2459" y="1088.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+</g>
+<rect x="64" y="1325" width="4" height="16" rx="2" fill="#a78bfa"/>
+<text x="80" y="1339" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="14.5" font-weight="600" letter-spacing="1.2" fill="#a78bfa">PHASE 3　管理・保護</text>
+<rect x="254" y="1333" width="2242" height="1" fill="#a78bfa" fill-opacity="0.18"/>
+<g>
+<rect x="64" y="1350" width="593" height="417" rx="14" fill="url(#cardbg)" stroke="#a78bfa" stroke-opacity="0.28" stroke-width="1.1"/>
+<rect x="64" y="1350" width="593" height="66" rx="14" fill="#a78bfa" fill-opacity="0.07"/>
+<rect x="64" y="1402" width="593" height="14" fill="#a78bfa" fill-opacity="0.07"/>
+<rect x="64" y="1416" width="593" height="1" fill="#a78bfa" fill-opacity="0.24"/>
+<rect x="64" y="1350" width="4" height="66" fill="#a78bfa" fill-opacity="0.85"/>
+<rect x="80" y="1365" width="34" height="21" rx="5.5" fill="#a78bfa" fill-opacity="0.18" stroke="#a78bfa" stroke-opacity="0.55" stroke-width="0.8"/>
+<text x="97" y="1380" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.5" font-weight="700" text-anchor="middle" fill="#a78bfa">09</text>
+<text x="124" y="1381" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="17.5" font-weight="600" fill="#f4f8ff">IPMS・ドケット管理</text>
+<text x="641" y="1381" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="15" font-weight="700" text-anchor="end" fill="#a78bfa" fill-opacity="0.9">22</text>
+<text x="124" y="1400" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="11.6" fill="#93a6c8">AI-native IPMSへの置き換えが進行</text>
+<g>
+<rect x="79" y="1428" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="79" y="1428" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="90" y="1445" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Anaqua</text>
+<rect x="322" y="1434" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="335" y="1443.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="79" y="1458" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="79" y="1458" width="3" height="25" rx="1.5" fill="#a5b4fc"/>
+<text x="90" y="1475" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Dennemeyer</text>
+<rect x="322" y="1464" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="335" y="1473.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="79" y="1488" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="79" y="1488" width="3" height="25" rx="1.5" fill="#a5b4fc"/>
+<text x="90" y="1505" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Questel</text>
+</g>
+<g>
+<rect x="79" y="1518" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="79" y="1518" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="90" y="1535" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Clarivate</text>
+</g>
+<g>
+<rect x="79" y="1548" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="79" y="1548" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="90" y="1565" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">FoundationIP</text>
+</g>
+<g>
+<rect x="79" y="1578" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="79" y="1578" width="3" height="25" rx="1.5" fill="#a5b4fc"/>
+<text x="90" y="1595" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Patrix</text>
+</g>
+<g>
+<rect x="79" y="1608" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="79" y="1608" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="90" y="1625" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">AppColl</text>
+</g>
+<g>
+<rect x="79" y="1638" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="79" y="1638" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="90" y="1655" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Alt Legal</text>
+</g>
+<g>
+<rect x="79" y="1668" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="79" y="1668" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="90" y="1685" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">CPI</text>
+</g>
+<g>
+<rect x="79" y="1698" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="79" y="1698" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="90" y="1715" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Innovation Asset Group</text>
+</g>
+<g>
+<rect x="79" y="1728" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="79" y="1728" width="3" height="25" rx="1.5" fill="#a5b4fc"/>
+<text x="90" y="1745" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Wolters Kluwer</text>
+</g>
+<g>
+<rect x="364" y="1428" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="364" y="1428" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="375" y="1445" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">root ip</text>
+</g>
+<g>
+<rect x="364" y="1458" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="364" y="1458" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="375" y="1475" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">日本パテントデータサービス</text>
+</g>
+<g>
+<rect x="364" y="1488" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="364" y="1488" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="375" y="1505" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">ミガリオ</text>
+<rect x="607" y="1494" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="620" y="1503.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="364" y="1518" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="364" y="1518" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="375" y="1535" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">東芝</text>
+<rect x="607" y="1524" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="620" y="1533.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="364" y="1548" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="364" y="1548" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="375" y="1565" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">IPオアシス</text>
+<rect x="607" y="1554" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="620" y="1563.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="364" y="1578" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="364" y="1578" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="375" y="1595" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">ベーステクノロジー</text>
+<rect x="607" y="1584" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="620" y="1593.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="364" y="1608" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="364" y="1608" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="375" y="1625" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">フューチャーアーキテクト</text>
+</g>
+<g>
+<rect x="364" y="1638" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="364" y="1638" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="375" y="1655" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">ネットワークス</text>
+</g>
+<g>
+<rect x="364" y="1668" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="364" y="1668" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="375" y="1685" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">中央光学出版</text>
+</g>
+<g>
+<rect x="364" y="1698" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="364" y="1698" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="375" y="1715" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">日立社会情報サービス</text>
+</g>
+<g>
+<rect x="364" y="1728" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="364" y="1728" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="375" y="1745" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">日本アイアール</text>
+</g>
+</g>
+<g>
+<rect x="677" y="1350" width="593" height="297" rx="14" fill="url(#cardbg)" stroke="#a78bfa" stroke-opacity="0.28" stroke-width="1.1"/>
+<rect x="677" y="1350" width="593" height="66" rx="14" fill="#a78bfa" fill-opacity="0.07"/>
+<rect x="677" y="1402" width="593" height="14" fill="#a78bfa" fill-opacity="0.07"/>
+<rect x="677" y="1416" width="593" height="1" fill="#a78bfa" fill-opacity="0.24"/>
+<rect x="677" y="1350" width="4" height="66" fill="#a78bfa" fill-opacity="0.85"/>
+<rect x="693" y="1365" width="34" height="21" rx="5.5" fill="#a78bfa" fill-opacity="0.18" stroke="#a78bfa" stroke-opacity="0.55" stroke-width="0.8"/>
+<text x="710" y="1380" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.5" font-weight="700" text-anchor="middle" fill="#a78bfa">10</text>
+<text x="737" y="1381" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="17.5" font-weight="600" fill="#f4f8ff">商標調査・管理</text>
+<text x="1254" y="1381" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="15" font-weight="700" text-anchor="end" fill="#a78bfa" fill-opacity="0.9">13</text>
+<text x="737" y="1400" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="11.6" fill="#93a6c8">音・意味・図形をAIが横断照合</text>
+<g>
+<rect x="692" y="1428" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="692" y="1428" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="703" y="1445" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Corsearch</text>
+</g>
+<g>
+<rect x="692" y="1458" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="692" y="1458" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="703" y="1475" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Clarivate</text>
+</g>
+<g>
+<rect x="692" y="1488" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="692" y="1488" width="3" height="25" rx="1.5" fill="#a5b4fc"/>
+<text x="703" y="1505" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Questel</text>
+</g>
+<g>
+<rect x="692" y="1518" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="692" y="1518" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="703" y="1535" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Markify</text>
+</g>
+<g>
+<rect x="692" y="1548" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="692" y="1548" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="703" y="1565" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Huski.ai</text>
+</g>
+<g>
+<rect x="692" y="1578" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="692" y="1578" width="3" height="25" rx="1.5" fill="#a5b4fc"/>
+<text x="703" y="1595" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Fovea IP</text>
+<rect x="935" y="1584" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="948" y="1593.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="692" y="1608" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="692" y="1608" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="703" y="1625" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Alt Legal</text>
+</g>
+<g>
+<rect x="977" y="1428" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="977" y="1428" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="988" y="1445" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Cotobox</text>
+<rect x="1220" y="1434" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1233" y="1443.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="977" y="1458" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="977" y="1458" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="988" y="1475" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">IP-RoBo</text>
+<rect x="1220" y="1464" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1233" y="1473.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="977" y="1488" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="977" y="1488" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="988" y="1505" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">日本特許情報機構</text>
+<rect x="1220" y="1494" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1233" y="1503.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="977" y="1518" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="977" y="1518" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="988" y="1535" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">日本パテントデータサービス</text>
+</g>
+<g>
+<rect x="977" y="1548" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="977" y="1548" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="988" y="1565" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">プロパティ</text>
+</g>
+<g>
+<rect x="977" y="1578" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="977" y="1578" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="988" y="1595" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">リーガルテック</text>
+</g>
+</g>
+<g>
+<rect x="1290" y="1350" width="593" height="267" rx="14" fill="url(#cardbg)" stroke="#a78bfa" stroke-opacity="0.28" stroke-width="1.1"/>
+<rect x="1290" y="1350" width="593" height="66" rx="14" fill="#a78bfa" fill-opacity="0.07"/>
+<rect x="1290" y="1402" width="593" height="14" fill="#a78bfa" fill-opacity="0.07"/>
+<rect x="1290" y="1416" width="593" height="1" fill="#a78bfa" fill-opacity="0.24"/>
+<rect x="1290" y="1350" width="4" height="66" fill="#a78bfa" fill-opacity="0.85"/>
+<rect x="1306" y="1365" width="34" height="21" rx="5.5" fill="#a78bfa" fill-opacity="0.18" stroke="#a78bfa" stroke-opacity="0.55" stroke-width="0.8"/>
+<text x="1323" y="1380" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.5" font-weight="700" text-anchor="middle" fill="#a78bfa">11</text>
+<text x="1350" y="1381" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="17.5" font-weight="600" fill="#f4f8ff">ブランド保護・偽造品対策</text>
+<text x="1867" y="1381" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="15" font-weight="700" text-anchor="end" fill="#a78bfa" fill-opacity="0.9">12</text>
+<text x="1350" y="1400" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="11.6" fill="#93a6c8">検知から削除申請までを自動化</text>
+<g>
+<rect x="1305" y="1428" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1305" y="1428" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1316" y="1445" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Corsearch</text>
+<rect x="1548" y="1434" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1561" y="1443.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="1305" y="1458" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1305" y="1458" width="3" height="25" rx="1.5" fill="#a5b4fc"/>
+<text x="1316" y="1475" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Red Points</text>
+<rect x="1548" y="1464" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1561" y="1473.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="1305" y="1488" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1305" y="1488" width="3" height="25" rx="1.5" fill="#34d399"/>
+<text x="1316" y="1505" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">BrandShield</text>
+</g>
+<g>
+<rect x="1305" y="1518" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1305" y="1518" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1316" y="1535" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Crane Authentication</text>
+<rect x="1548" y="1524" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1561" y="1533.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="1305" y="1548" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1305" y="1548" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1316" y="1565" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">MarqVision</text>
+<rect x="1548" y="1554" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1561" y="1563.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="1305" y="1578" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1305" y="1578" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1316" y="1595" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Clarivate</text>
+</g>
+<g>
+<rect x="1590" y="1428" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1590" y="1428" width="3" height="25" rx="1.5" fill="#34d399"/>
+<text x="1601" y="1445" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Copyleaks</text>
+</g>
+<g>
+<rect x="1590" y="1458" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1590" y="1458" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1601" y="1475" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Polygraf AI</text>
+</g>
+<g>
+<rect x="1590" y="1488" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1590" y="1488" width="3" height="25" rx="1.5" fill="#34d399"/>
+<text x="1601" y="1505" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Wegofair</text>
+<rect x="1833" y="1494" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1846" y="1503.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="1590" y="1518" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1590" y="1518" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="1601" y="1535" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">GMOブランドセキュリティ</text>
+<rect x="1833" y="1524" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1846" y="1533.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="1590" y="1548" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1590" y="1548" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="1601" y="1565" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">サカタブランドソリューションズ</text>
+<rect x="1833" y="1554" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1846" y="1563.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="1590" y="1578" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1590" y="1578" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="1601" y="1595" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">INXI</text>
+<rect x="1833" y="1584" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1846" y="1593.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+</g>
+<g>
+<rect x="1903" y="1350" width="593" height="237" rx="14" fill="url(#cardbg)" stroke="#a78bfa" stroke-opacity="0.28" stroke-width="1.1"/>
+<rect x="1903" y="1350" width="593" height="66" rx="14" fill="#a78bfa" fill-opacity="0.07"/>
+<rect x="1903" y="1402" width="593" height="14" fill="#a78bfa" fill-opacity="0.07"/>
+<rect x="1903" y="1416" width="593" height="1" fill="#a78bfa" fill-opacity="0.24"/>
+<rect x="1903" y="1350" width="4" height="66" fill="#a78bfa" fill-opacity="0.85"/>
+<rect x="1919" y="1365" width="34" height="21" rx="5.5" fill="#a78bfa" fill-opacity="0.18" stroke="#a78bfa" stroke-opacity="0.55" stroke-width="0.8"/>
+<text x="1936" y="1380" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.5" font-weight="700" text-anchor="middle" fill="#a78bfa">12</text>
+<text x="1963" y="1381" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="17.5" font-weight="600" fill="#f4f8ff">侵害検知・EoU・クレームチャート</text>
+<text x="2480" y="1381" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="15" font-weight="700" text-anchor="end" fill="#a78bfa" fill-opacity="0.9">10</text>
+<text x="1963" y="1400" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="11.6" fill="#93a6c8">数週間の作業を数時間に圧縮</text>
+<g>
+<rect x="1918" y="1428" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1918" y="1428" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1929" y="1445" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Patlytics</text>
+<rect x="2161" y="1434" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="2174" y="1443.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="1918" y="1458" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1918" y="1458" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1929" y="1475" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Solve Intelligence</text>
+<rect x="2161" y="1464" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="2174" y="1473.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="1918" y="1488" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1918" y="1488" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1929" y="1505" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">DeepIP</text>
+</g>
+<g>
+<rect x="1918" y="1518" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1918" y="1518" width="3" height="25" rx="1.5" fill="#34d399"/>
+<text x="1929" y="1535" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">XLSCOUT</text>
+</g>
+<g>
+<rect x="1918" y="1548" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1918" y="1548" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1929" y="1565" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">IP8</text>
+</g>
+<g>
+<rect x="2203" y="1428" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="2203" y="1428" width="3" height="25" rx="1.5" fill="#34d399"/>
+<text x="2214" y="1445" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">GreyB</text>
+</g>
+<g>
+<rect x="2203" y="1458" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="2203" y="1458" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="2214" y="1475" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">AIVisor</text>
+<rect x="2446" y="1464" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="2459" y="1473.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="2203" y="1488" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="2203" y="1488" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="2214" y="1505" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">アクアプラネット</text>
+<rect x="2446" y="1494" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="2459" y="1503.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="2203" y="1518" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="2203" y="1518" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="2214" y="1535" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">aiip</text>
+<rect x="2446" y="1524" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="2459" y="1533.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="2203" y="1548" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="2203" y="1548" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="2214" y="1565" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">エムニ</text>
+</g>
+</g>
+<rect x="64" y="1800" width="4" height="16" rx="2" fill="#fb7185"/>
+<text x="80" y="1814" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="14.5" font-weight="600" letter-spacing="1.2" fill="#fb7185">PHASE 4　活用・紛争</text>
+<rect x="254" y="1808" width="2242" height="1" fill="#fb7185" fill-opacity="0.18"/>
+<g>
+<rect x="64" y="1825" width="593" height="177" rx="14" fill="url(#cardbg)" stroke="#fb7185" stroke-opacity="0.28" stroke-width="1.1"/>
+<rect x="64" y="1825" width="593" height="66" rx="14" fill="#fb7185" fill-opacity="0.07"/>
+<rect x="64" y="1877" width="593" height="14" fill="#fb7185" fill-opacity="0.07"/>
+<rect x="64" y="1891" width="593" height="1" fill="#fb7185" fill-opacity="0.24"/>
+<rect x="64" y="1825" width="4" height="66" fill="#fb7185" fill-opacity="0.85"/>
+<rect x="80" y="1840" width="34" height="21" rx="5.5" fill="#fb7185" fill-opacity="0.18" stroke="#fb7185" stroke-opacity="0.55" stroke-width="0.8"/>
+<text x="97" y="1855" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.5" font-weight="700" text-anchor="middle" fill="#fb7185">13</text>
+<text x="124" y="1856" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="17.5" font-weight="600" fill="#f4f8ff">IP訴訟・紛争分析</text>
+<text x="641" y="1856" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="15" font-weight="700" text-anchor="end" fill="#fb7185" fill-opacity="0.9">5</text>
+<text x="124" y="1875" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="11.6" fill="#93a6c8">勝てる裁判かを定量で判断</text>
+<g>
+<rect x="79" y="1903" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="79" y="1903" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="90" y="1920" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">LexisNexis</text>
+</g>
+<g>
+<rect x="79" y="1933" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="79" y="1933" width="3" height="25" rx="1.5" fill="#a5b4fc"/>
+<text x="90" y="1950" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Clarivate</text>
+<rect x="322" y="1939" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="335" y="1948.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="79" y="1963" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="79" y="1963" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="90" y="1980" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Pre/Dicta</text>
+</g>
+<g>
+<rect x="364" y="1903" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="364" y="1903" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="375" y="1920" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Docket Navigator</text>
+</g>
+<g>
+<rect x="364" y="1933" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="364" y="1933" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="375" y="1950" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Patlytics</text>
+</g>
+</g>
+<g>
+<rect x="677" y="1825" width="593" height="237" rx="14" fill="url(#cardbg)" stroke="#fb7185" stroke-opacity="0.28" stroke-width="1.1"/>
+<rect x="677" y="1825" width="593" height="66" rx="14" fill="#fb7185" fill-opacity="0.07"/>
+<rect x="677" y="1877" width="593" height="14" fill="#fb7185" fill-opacity="0.07"/>
+<rect x="677" y="1891" width="593" height="1" fill="#fb7185" fill-opacity="0.24"/>
+<rect x="677" y="1825" width="4" height="66" fill="#fb7185" fill-opacity="0.85"/>
+<rect x="693" y="1840" width="34" height="21" rx="5.5" fill="#fb7185" fill-opacity="0.18" stroke="#fb7185" stroke-opacity="0.55" stroke-width="0.8"/>
+<text x="710" y="1855" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.5" font-weight="700" text-anchor="middle" fill="#fb7185">14</text>
+<text x="737" y="1856" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="17.5" font-weight="600" fill="#f4f8ff">ライセンス・契約・AI Rights</text>
+<text x="1254" y="1856" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="15" font-weight="700" text-anchor="end" fill="#fb7185" fill-opacity="0.9">9</text>
+<text x="737" y="1875" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="11.6" fill="#93a6c8">AI生成物の権利帰属が新論点に</text>
+<g>
+<rect x="692" y="1903" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="692" y="1903" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="703" y="1920" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Ironclad</text>
+</g>
+<g>
+<rect x="692" y="1933" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="692" y="1933" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="703" y="1950" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Spellbook</text>
+</g>
+<g>
+<rect x="692" y="1963" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="692" y="1963" width="3" height="25" rx="1.5" fill="#a5b4fc"/>
+<text x="703" y="1980" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Juro</text>
+</g>
+<g>
+<rect x="692" y="1993" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="692" y="1993" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="703" y="2010" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">LegalSifter</text>
+</g>
+<g>
+<rect x="692" y="2023" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="692" y="2023" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="703" y="2040" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">ktMINE</text>
+</g>
+<g>
+<rect x="977" y="1903" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="977" y="1903" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="988" y="1920" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Created by Humans</text>
+</g>
+<g>
+<rect x="977" y="1933" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="977" y="1933" width="3" height="25" rx="1.5" fill="#34d399"/>
+<text x="988" y="1950" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Piece Future</text>
+<rect x="1220" y="1939" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1233" y="1948.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="977" y="1963" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="977" y="1963" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="988" y="1980" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">ASU</text>
+</g>
+<g>
+<rect x="977" y="1993" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="977" y="1993" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="988" y="2010" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">ジー・サーチ</text>
+<rect x="1220" y="1999" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1233" y="2008.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+</g>
+<g>
+<rect x="1290" y="1825" width="593" height="147" rx="14" fill="url(#cardbg)" stroke="#fb7185" stroke-opacity="0.28" stroke-width="1.1"/>
+<rect x="1290" y="1825" width="593" height="66" rx="14" fill="#fb7185" fill-opacity="0.07"/>
+<rect x="1290" y="1877" width="593" height="14" fill="#fb7185" fill-opacity="0.07"/>
+<rect x="1290" y="1891" width="593" height="1" fill="#fb7185" fill-opacity="0.24"/>
+<rect x="1290" y="1825" width="4" height="66" fill="#fb7185" fill-opacity="0.85"/>
+<rect x="1306" y="1840" width="34" height="21" rx="5.5" fill="#fb7185" fill-opacity="0.18" stroke="#fb7185" stroke-opacity="0.55" stroke-width="0.8"/>
+<text x="1323" y="1855" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.5" font-weight="700" text-anchor="middle" fill="#fb7185">15</text>
+<text x="1350" y="1856" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="17.5" font-weight="600" fill="#f4f8ff">営業秘密・証跡管理</text>
+<text x="1867" y="1856" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="15" font-weight="700" text-anchor="end" fill="#fb7185" fill-opacity="0.9">3</text>
+<text x="1350" y="1875" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="11.6" fill="#93a6c8">出願しない知財をどう守るか</text>
+<g>
+<rect x="1305" y="1903" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1305" y="1903" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1316" y="1920" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Tangibly</text>
+</g>
+<g>
+<rect x="1305" y="1933" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1305" y="1933" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="1316" y="1950" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">ハイパーギア</text>
+<rect x="1548" y="1939" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1561" y="1948.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="1590" y="1903" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1590" y="1903" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="1601" y="1920" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">リーガルテック</text>
+<rect x="1833" y="1909" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1846" y="1918.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+</g>
+<g>
+<rect x="1903" y="1825" width="593" height="207" rx="14" fill="url(#cardbg)" stroke="#fb7185" stroke-opacity="0.28" stroke-width="1.1"/>
+<rect x="1903" y="1825" width="593" height="66" rx="14" fill="#fb7185" fill-opacity="0.07"/>
+<rect x="1903" y="1877" width="593" height="14" fill="#fb7185" fill-opacity="0.07"/>
+<rect x="1903" y="1891" width="593" height="1" fill="#fb7185" fill-opacity="0.24"/>
+<rect x="1903" y="1825" width="4" height="66" fill="#fb7185" fill-opacity="0.85"/>
+<rect x="1919" y="1840" width="34" height="21" rx="5.5" fill="#fb7185" fill-opacity="0.18" stroke="#fb7185" stroke-opacity="0.55" stroke-width="0.8"/>
+<text x="1936" y="1855" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.5" font-weight="700" text-anchor="middle" fill="#fb7185">16</text>
+<text x="1963" y="1856" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="17.5" font-weight="600" fill="#f4f8ff">バイオ医薬・SEP専門IP</text>
+<text x="2480" y="1856" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="15" font-weight="700" text-anchor="end" fill="#fb7185" fill-opacity="0.9">7</text>
+<text x="1963" y="1875" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="11.6" fill="#93a6c8">制度特殊性が参入障壁になる領域</text>
+<g>
+<rect x="1918" y="1903" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1918" y="1903" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1929" y="1920" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">Clarivate</text>
+</g>
+<g>
+<rect x="1918" y="1933" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1918" y="1933" width="3" height="25" rx="1.5" fill="#a5b4fc"/>
+<text x="1929" y="1950" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">LexisNexis</text>
+</g>
+<g>
+<rect x="1918" y="1963" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1918" y="1963" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1929" y="1980" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">DrugPatentWatch</text>
+</g>
+<g>
+<rect x="1918" y="1993" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="1918" y="1993" width="3" height="25" rx="1.5" fill="#38bdf8"/>
+<text x="1929" y="2010" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">CAS</text>
+<rect x="2161" y="1999" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="2174" y="2008.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="2203" y="1903" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="2203" y="1903" width="3" height="25" rx="1.5" fill="#34d399"/>
+<text x="2214" y="1920" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">wert intelligence</text>
+<rect x="2446" y="1909" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="2459" y="1918.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="2203" y="1933" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="2203" y="1933" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="2214" y="1950" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">化学情報協会</text>
+</g>
+<g>
+<rect x="2203" y="1963" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="2203" y="1963" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="2214" y="1980" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">ジー・サーチ</text>
+</g>
+</g>
+<rect x="64" y="2095" width="4" height="16" rx="2" fill="#fbbf24"/>
+<text x="80" y="2109" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="14.5" font-weight="600" letter-spacing="1.2" fill="#fbbf24">PHASE 5　実装・体制</text>
+<rect x="254" y="2103" width="2242" height="1" fill="#fbbf24" fill-opacity="0.18"/>
+<g>
+<rect x="64" y="2120" width="593" height="207" rx="14" fill="url(#cardbg)" stroke="#fbbf24" stroke-opacity="0.28" stroke-width="1.1"/>
+<rect x="64" y="2120" width="593" height="66" rx="14" fill="#fbbf24" fill-opacity="0.07"/>
+<rect x="64" y="2172" width="593" height="14" fill="#fbbf24" fill-opacity="0.07"/>
+<rect x="64" y="2186" width="593" height="1" fill="#fbbf24" fill-opacity="0.24"/>
+<rect x="64" y="2120" width="4" height="66" fill="#fbbf24" fill-opacity="0.85"/>
+<rect x="80" y="2135" width="34" height="21" rx="5.5" fill="#fbbf24" fill-opacity="0.18" stroke="#fbbf24" stroke-opacity="0.55" stroke-width="0.8"/>
+<text x="97" y="2150" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.5" font-weight="700" text-anchor="middle" fill="#fbbf24">17</text>
+<text x="124" y="2151" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="17.5" font-weight="600" fill="#f4f8ff">特許調査サービス（サーチャー×AI）</text>
+<text x="641" y="2151" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="15" font-weight="700" text-anchor="end" fill="#fbbf24" fill-opacity="0.9">8</text>
+<text x="124" y="2170" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="11.6" fill="#93a6c8">人の判断を残す日本固有の厚い層</text>
+<g>
+<rect x="79" y="2198" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="79" y="2198" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="90" y="2215" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">テクノリサーチ</text>
+<rect x="322" y="2204" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="335" y="2213.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="79" y="2228" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="79" y="2228" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="90" y="2245" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">テスコ</text>
+<rect x="322" y="2234" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="335" y="2243.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="79" y="2258" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="79" y="2258" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="90" y="2275" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">プロパティ</text>
+</g>
+<g>
+<rect x="79" y="2288" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="79" y="2288" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="90" y="2305" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">日本アイアール</text>
+</g>
+<g>
+<rect x="364" y="2198" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="364" y="2198" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="375" y="2215" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">イノベーションリサーチ</text>
+<rect x="607" y="2204" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="620" y="2213.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="364" y="2228" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="364" y="2228" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="375" y="2245" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">パソナナレッジパートナー</text>
+</g>
+<g>
+<rect x="364" y="2258" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="364" y="2258" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="375" y="2275" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">化学情報協会</text>
+</g>
+<g>
+<rect x="364" y="2288" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="364" y="2288" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="375" y="2305" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">ジー・サーチ</text>
+</g>
+</g>
+<g>
+<rect x="677" y="2120" width="593" height="177" rx="14" fill="url(#cardbg)" stroke="#fbbf24" stroke-opacity="0.28" stroke-width="1.1"/>
+<rect x="677" y="2120" width="593" height="66" rx="14" fill="#fbbf24" fill-opacity="0.07"/>
+<rect x="677" y="2172" width="593" height="14" fill="#fbbf24" fill-opacity="0.07"/>
+<rect x="677" y="2186" width="593" height="1" fill="#fbbf24" fill-opacity="0.24"/>
+<rect x="677" y="2120" width="4" height="66" fill="#fbbf24" fill-opacity="0.85"/>
+<rect x="693" y="2135" width="34" height="21" rx="5.5" fill="#fbbf24" fill-opacity="0.18" stroke="#fbbf24" stroke-opacity="0.55" stroke-width="0.8"/>
+<text x="710" y="2150" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.5" font-weight="700" text-anchor="middle" fill="#fbbf24">18</text>
+<text x="737" y="2151" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="17.5" font-weight="600" fill="#f4f8ff">知財AX導入支援・伴走</text>
+<text x="1254" y="2151" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="15" font-weight="700" text-anchor="end" fill="#fbbf24" fill-opacity="0.9">5</text>
+<text x="737" y="2170" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="11.6" fill="#93a6c8">ツールより先に組織能力が問われる</text>
+<g>
+<rect x="692" y="2198" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="692" y="2198" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="703" y="2215" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">AIDAO</text>
+<rect x="935" y="2204" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="948" y="2213.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="692" y="2228" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="692" y="2228" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="703" y="2245" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">パソナナレッジパートナー</text>
+</g>
+<g>
+<rect x="692" y="2258" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="692" y="2258" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="703" y="2275" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">電通総研</text>
+</g>
+<g>
+<rect x="977" y="2198" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="977" y="2198" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="988" y="2215" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">HackCamp</text>
+<rect x="1220" y="2204" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1233" y="2213.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+<g>
+<rect x="977" y="2228" width="277" height="25" rx="5" fill="#ffffff" fill-opacity="0.045"/>
+<rect x="977" y="2228" width="3" height="25" rx="1.5" fill="#fb923c"/>
+<text x="988" y="2245" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.6" fill="#e8eefc">知財戦略ラボラトリー</text>
+<rect x="1220" y="2234" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="1233" y="2243.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" letter-spacing="0.3" text-anchor="middle" fill="#f472b6">NEW</text>
+</g>
+</g>
+<g>
+<rect x="1290" y="2120" width="593" height="195" rx="14" fill="#fbbf24" fill-opacity="0.05" stroke="#fbbf24" stroke-opacity="0.22" stroke-width="1" stroke-dasharray="5 4"/>
+<rect x="1308" y="2139" width="3" height="13" rx="1.5" fill="#fbbf24"/>
+<text x="1319" y="2150" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="13" font-weight="600" letter-spacing="0.6" fill="#fbbf24">2026年 主な動き</text>
+<text x="1309" y="2172" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="10.4" font-weight="700" fill="#fbbf24" fill-opacity="0.85">2025.09</text>
+<text x="1362" y="2172" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="11.0" fill="#c3d2ea">MarqVision が $48M シリーズB、東京拠点を開設</text>
+<text x="1309" y="2191" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="10.4" font-weight="700" fill="#fbbf24" fill-opacity="0.85">2025.12</text>
+<text x="1362" y="2191" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="11.0" fill="#c3d2ea">Solve Intelligence が $40M シリーズB</text>
+<text x="1309" y="2210" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="10.4" font-weight="700" fill="#fbbf24" fill-opacity="0.85">2026.04</text>
+<text x="1362" y="2210" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="11.0" fill="#c3d2ea">Patlytics が $40M シリーズB／Patentfield が GENIAC-PRIZE 特別賞</text>
+<text x="1309" y="2229" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="10.4" font-weight="700" fill="#fbbf24" fill-opacity="0.85">2026.05</text>
+<text x="1362" y="2229" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="11.0" fill="#c3d2ea">Clarivate が AIエージェント基盤 IPOne を発表</text>
+<text x="1309" y="2248" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="10.4" font-weight="700" fill="#fbbf24" fill-opacity="0.85">2026.06</text>
+<text x="1362" y="2248" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="11.0" fill="#c3d2ea">DeepIP が独 PatentMaker を買収、欧州を強化</text>
+<text x="1309" y="2267" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="10.4" font-weight="700" fill="#fbbf24" fill-opacity="0.85">2026.07</text>
+<text x="1362" y="2267" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="11.0" fill="#c3d2ea">AI Samurai が MCPサーバー提供／wert が日本進出</text>
+<text x="1309" y="2286" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="10.4" font-weight="700" fill="#fbbf24" fill-opacity="0.85">2026.10</text>
+<text x="1362" y="2286" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="11.0" fill="#c3d2ea">NTTデータが発明発掘支援AIを先行提供予定</text>
+</g>
+<g>
+<rect x="1903" y="2120" width="593" height="176" rx="14" fill="#fbbf24" fill-opacity="0.05" stroke="#fbbf24" stroke-opacity="0.22" stroke-width="1" stroke-dasharray="5 4"/>
+<rect x="1921" y="2139" width="3" height="13" rx="1.5" fill="#fbbf24"/>
+<text x="1932" y="2150" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="13" font-weight="600" letter-spacing="0.6" fill="#fbbf24">マップ外：知財エコシステムの基盤</text>
+<text x="1922" y="2172" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="10.4" font-weight="700" fill="#fbbf24" fill-opacity="0.85">公的機関</text>
+<text x="1975" y="2172" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="11.0" fill="#c3d2ea">3機関　J-PlatPatなど制度インフラを担う</text>
+<text x="1922" y="2191" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="10.4" font-weight="700" fill="#fbbf24" fill-opacity="0.85">業界団体</text>
+<text x="1975" y="2191" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="11.0" fill="#c3d2ea">6団体　制度提言・実務者ネットワーク</text>
+<text x="1922" y="2210" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="10.4" font-weight="700" fill="#fbbf24" fill-opacity="0.85">教育・研修</text>
+<text x="1975" y="2210" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="11.0" fill="#c3d2ea">3機関　知財人材の育成を担う</text>
+<text x="1922" y="2229" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="10.4" font-weight="700" fill="#fbbf24" fill-opacity="0.85">調査・実務</text>
+<text x="1975" y="2229" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="11.0" fill="#c3d2ea">11社　AI非搭載の調査・事務・翻訳・偽造防止</text>
+<text x="1922" y="2248" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="10.4" font-weight="700" fill="#fbbf24" fill-opacity="0.85"></text>
+<text x="1975" y="2248" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="11.0" fill="#c3d2ea">計23社・団体。AI搭載製品を確認できないためマップ外とした。</text>
+<text x="1922" y="2267" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="10.4" font-weight="700" fill="#fbbf24" fill-opacity="0.85"></text>
+<text x="1975" y="2267" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="11.0" fill="#c3d2ea">内訳と除外理由は記事本文に記載している。</text>
+</g>
+<rect x="64" y="2343" width="2432" height="1" fill="#ffffff" fill-opacity="0.09"/>
+<text x="64" y="2377" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="13" font-weight="600" fill="#8fa3c8">凡例</text>
+<rect x="116" y="2365" width="3" height="15" rx="1.5" fill="#fb923c"/>
+<text x="126" y="2377" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.5" fill="#b3c4e0">日本ベンダー</text>
+<rect x="231.0" y="2365" width="3" height="15" rx="1.5" fill="#38bdf8"/>
+<text x="241.0" y="2377" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.5" fill="#b3c4e0">北米</text>
+<rect x="296.0" y="2365" width="3" height="15" rx="1.5" fill="#a5b4fc"/>
+<text x="306.0" y="2377" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.5" fill="#b3c4e0">欧州</text>
+<rect x="361.0" y="2365" width="3" height="15" rx="1.5" fill="#34d399"/>
+<text x="371.0" y="2377" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.5" fill="#b3c4e0">アジア・その他</text>
+<rect x="487.25" y="2364" width="26" height="13" rx="3.2" fill="#22d3ee" fill-opacity="0.16" stroke="#22d3ee" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="500.25" y="2373.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" text-anchor="middle" fill="#22d3ee">MCP</text>
+<text x="521.25" y="2377" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.5" fill="#b3c4e0">MCP／AIエージェント連携に対応</text>
+<rect x="731.875" y="2364" width="26" height="13" rx="3.2" fill="#f472b6" fill-opacity="0.16" stroke="#f472b6" stroke-opacity="0.5" stroke-width="0.7"/>
+<text x="744.875" y="2373.6" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="8.2" font-weight="700" text-anchor="middle" fill="#f472b6">NEW</text>
+<text x="765.875" y="2377" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.5" fill="#b3c4e0">2026年の新規参入・大型アップデート</text>
+<text x="64" y="2415" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.5" fill="#6d80a6">出典：各社公式サイト／プレスリリース、2026知財・情報フェア＆コンファレンス（2026年9月16〜18日・東京ビッグサイト）出展社情報、各社の資金調達・買収に関する一次発表。調査日：2026年9月17日。</text>
+<text x="64" y="2439" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="12.5" fill="#6d80a6">掲載は網羅を保証するものではなく、公開情報で機能・提供主体を確認できたものに限る。カテゴリは主用途による筆者分類で、複数カテゴリに重複掲載している製品がある。表記は提供企業・団体名で、製品名は記事本文の一覧に記載。</text>
+<text x="2496" y="2439" font-family="Hiragino Sans, Noto Sans JP, sans-serif" font-size="13" text-anchor="end" fill="#5f719a">lexi2vent.com</text>
+</svg>

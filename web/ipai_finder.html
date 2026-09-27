@@ -1,0 +1,313 @@
+<title>知財AIベンダー名鑑 2026.9</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+<style>
+:root{
+  --paper:#f4f5f6; --card:#ffffff; --ink:#17202c; --muted:#5f6b7a; --rule:#d9dde2;
+  --rule-soft:#e8ebee; --accent:#2c5f8a; --accent-soft:#e7eef5;
+  --r-jp:#b23a1f; --r-na:#24618f; --r-eu:#5b4b9e; --r-as:#1f6b52;
+  --mcp:#0d6e78; --new:#8a5a12; --mcp-bg:#e3f0f1; --new-bg:#f5ecdc;
+  --shadow:0 1px 0 rgba(23,32,44,.04);
+  --sans:"IBM Plex Sans","Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic","Noto Sans JP",sans-serif;
+  --mono:"IBM Plex Mono","SFMono-Regular",Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#111821; --card:#18212c; --ink:#e6ecf3; --muted:#93a1b2; --rule:#2a3542;
+    --rule-soft:#222c38; --accent:#77aad9; --accent-soft:#1d2a38;
+    --r-jp:#e0794f; --r-na:#6aa5d8; --r-eu:#9b8ae0; --r-as:#4fb08c;
+    --mcp:#4fc3cf; --new:#d9a441; --mcp-bg:#173039; --new-bg:#2e2718;
+    --shadow:none;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#111821; --card:#18212c; --ink:#e6ecf3; --muted:#93a1b2; --rule:#2a3542;
+  --rule-soft:#222c38; --accent:#77aad9; --accent-soft:#1d2a38;
+  --r-jp:#e0794f; --r-na:#6aa5d8; --r-eu:#9b8ae0; --r-as:#4fb08c;
+  --mcp:#4fc3cf; --new:#d9a441; --mcp-bg:#173039; --new-bg:#2e2718;
+  --shadow:none;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);
+  font-size:15px;line-height:1.7;-webkit-font-smoothing:antialiased}
+a{color:var(--accent)}
+
+/* ---------- header ---------- */
+.top{position:sticky;top:0;z-index:20;background:var(--paper);
+  border-bottom:1px solid var(--rule);}
+.top-in{max-width:1400px;margin:0 auto;padding:18px 20px 14px;
+  display:flex;gap:20px;align-items:flex-end;flex-wrap:wrap}
+h1{margin:0;font-size:21px;font-weight:600;letter-spacing:.01em;line-height:1.25}
+.sub{margin:3px 0 0;font-size:12.5px;color:var(--muted);font-family:var(--mono)}
+.searchwrap{flex:1 1 280px;min-width:0;display:flex;gap:8px;align-items:center}
+#q{flex:1;min-width:0;font:inherit;font-size:14px;padding:9px 12px;color:var(--ink);
+  background:var(--card);border:1px solid var(--rule);border-radius:3px}
+#q:focus{outline:2px solid var(--accent);outline-offset:-1px;border-color:transparent}
+.count{font-family:var(--mono);font-size:12.5px;color:var(--muted);white-space:nowrap;
+  font-variant-numeric:tabular-nums}
+.count b{color:var(--ink);font-size:16px;font-weight:600}
+
+/* ---------- layout ---------- */
+.wrap{max-width:1400px;margin:0 auto;padding:0 20px 64px;
+  display:grid;grid-template-columns:232px minmax(0,1fr);gap:32px;align-items:start}
+.side{position:sticky;top:78px;padding:22px 0 0;max-height:calc(100vh - 92px);overflow-y:auto}
+.fgroup{margin-bottom:22px}
+.flabel{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--muted);margin:0 0 8px;font-weight:500}
+.opt{display:flex;align-items:baseline;gap:7px;padding:3px 0;cursor:pointer;
+  font-size:13.5px;line-height:1.45;color:var(--ink)}
+.opt input{margin:0;accent-color:var(--accent);flex:none;position:relative;top:2px}
+.opt .n{margin-left:auto;font-family:var(--mono);font-size:11px;color:var(--muted);
+  font-variant-numeric:tabular-nums;flex:none}
+.opt:hover .lbl{color:var(--accent)}
+.phase-h{font-size:11.5px;font-weight:600;color:var(--muted);margin:12px 0 4px;
+  padding-top:8px;border-top:1px solid var(--rule-soft)}
+.phase-h:first-of-type{border-top:0;padding-top:0;margin-top:0}
+.cno{font-family:var(--mono);font-size:11px;color:var(--muted);flex:none}
+#reset{margin-top:4px;font:inherit;font-size:12.5px;color:var(--accent);background:none;
+  border:0;padding:0;cursor:pointer;text-decoration:underline;text-underline-offset:2px}
+#reset[disabled]{color:var(--muted);text-decoration:none;cursor:default;opacity:.6}
+
+/* ---------- results ---------- */
+.main{padding-top:22px;min-width:0}
+.sect{margin:0 0 30px}
+.sect-h{display:flex;align-items:baseline;gap:10px;margin:0 0 3px;
+  padding-bottom:7px;border-bottom:1.5px solid var(--ink)}
+.sect-h .no{font-family:var(--mono);font-size:12px;color:var(--muted);font-weight:500}
+.sect-h h2{margin:0;font-size:16px;font-weight:600;letter-spacing:.005em}
+.sect-h .qty{margin-left:auto;font-family:var(--mono);font-size:12px;color:var(--muted);
+  font-variant-numeric:tabular-nums}
+.sect-s{margin:0 0 14px;font-size:12.5px;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.card{background:var(--card);border:1px solid var(--rule-soft);border-left:2.5px solid var(--rg);
+  border-radius:2px;padding:13px 15px 14px;box-shadow:var(--shadow);min-width:0}
+.card[data-r="日本"]{--rg:var(--r-jp)} .card[data-r="北米"]{--rg:var(--r-na)}
+.card[data-r="欧州"]{--rg:var(--r-eu)} .card[data-r="アジア・他"]{--rg:var(--r-as)}
+.cname{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin-bottom:5px}
+.cname a,.cname span.nm{font-size:15px;font-weight:600;line-height:1.35;color:var(--ink);
+  text-decoration:none;word-break:break-word}
+.cname a:hover{color:var(--accent);text-decoration:underline;text-underline-offset:2px}
+.rg{font-size:10.5px;color:var(--rg);font-family:var(--mono);flex:none}
+.badges{display:flex;gap:5px;flex-wrap:wrap;margin-left:auto;flex:none}
+.bd{font-family:var(--mono);font-size:9.5px;font-weight:600;letter-spacing:.06em;
+  padding:1.5px 5px;border-radius:2px;white-space:nowrap}
+.bd.m{color:var(--mcp);background:var(--mcp-bg)}
+.bd.n{color:var(--new);background:var(--new-bg)}
+.desc{margin:0;font-size:13px;line-height:1.65;color:var(--muted)}
+.booth{margin:9px 0 0;padding-top:8px;border-top:1px dashed var(--rule);
+  font-size:12px;color:var(--ink);display:flex;gap:8px;align-items:baseline}
+.bn{font-family:var(--mono);font-size:12px;font-weight:600;color:var(--accent);
+  background:var(--accent-soft);padding:1px 6px;border-radius:2px;flex:none}
+.bx{color:var(--muted);min-width:0;word-break:break-word}
+.tags{margin:8px 0 0;display:flex;gap:5px;flex-wrap:wrap}
+.tag{font-size:10.5px;color:var(--muted);border:1px solid var(--rule);
+  padding:0 5px;border-radius:2px;line-height:1.7}
+.tag.p{color:var(--ink);background:var(--accent-soft);border-color:transparent;font-weight:500}
+.dep{margin:7px 0 0;font-size:11.5px;color:var(--ink);font-family:var(--mono)}
+.legend{margin:18px 0 0;font-size:11.5px;color:var(--muted);line-height:2}
+.empty{padding:48px 4px;color:var(--muted);font-size:14px}
+.empty b{color:var(--ink)}
+.foot{max-width:1400px;margin:0 auto;padding:22px 20px 40px;border-top:1px solid var(--rule);
+  font-size:12px;color:var(--muted);line-height:1.8}
+.foot a{color:var(--accent)}
+.mobtoggle{display:none}
+@media(max-width:860px){
+  .wrap{grid-template-columns:1fr;gap:0;padding-bottom:40px}
+  .side{position:static;max-height:none;overflow:visible;padding:0;
+    border-bottom:1px solid var(--rule);margin-bottom:18px}
+  .side-in{display:none;padding:16px 0 18px}
+  .side.open .side-in{display:block}
+  .mobtoggle{display:flex;width:100%;align-items:center;gap:8px;font:inherit;font-size:13.5px;
+    background:none;border:0;color:var(--ink);padding:14px 0;cursor:pointer}
+  .mobtoggle .chev{margin-left:auto;font-family:var(--mono);color:var(--muted)}
+  .grid{grid-template-columns:1fr}
+  .top-in{padding:14px 20px 12px;gap:12px}
+  h1{font-size:18px}
+}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+<header class="top">
+  <div class="top-in">
+    <div>
+      <h1>知財AIベンダー名鑑 2026.9</h1>
+      <p class="sub" id="meta"></p>
+    </div>
+    <div class="searchwrap">
+      <input id="q" type="search" placeholder="社名・製品・特徴で検索（例：オンプレミス、MCP、明細書）" autocomplete="off">
+      <span class="count" id="count"></span>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  <aside class="side" id="side">
+    <button class="mobtoggle" id="mobtoggle" aria-expanded="false" aria-controls="sidein">
+      絞り込み<span class="chev">＋</span>
+    </button>
+    <div class="side-in" id="sidein">
+      <div class="fgroup">
+        <p class="flabel">属性</p>
+        <div id="f-attr"></div>
+      </div>
+      <div class="fgroup">
+        <p class="flabel">地域</p>
+        <div id="f-region"></div>
+      </div>
+      <div class="fgroup">
+        <p class="flabel">業務工程</p>
+        <div id="f-cat"></div>
+      </div>
+      <button id="reset" disabled>絞り込みを解除</button>
+      <p class="legend"><span class="tag p">塗り</span>＝代表的な工程　<span class="tag">線</span>＝対応している工程</p>
+    </div>
+  </aside>
+  <main class="main" id="out"></main>
+</div>
+
+<footer class="foot">
+  <p>掲載基準：AI・生成AIを組み込んだ製品またはサービスを公開情報で確認できたベンダーに限る。公的機関、業界団体、AI活用を公表していない事務所・調査会社は対象外とした。対象外であることは事業の価値とは無関係である。</p>
+  <p>出典：各社公式サイト・プレスリリース、2026 知財・情報フェア＆コンファレンス出展社情報。調査日 2026年9月17日。機能の実効性は検証していない。「最短30分」などの数値は各社の主張である。<br>
+  整理：上村侑太郎（LeXi/Vent）　次回更新予定：2027年春</p>
+</footer>
+
+<script src="data.js"></script>
+<script>
+const $ = s => document.querySelector(s);
+const CATS = DB.categories, VENDORS = DB.vendors;
+const CATMAP = Object.fromEntries(CATS.map(c => [c.cat_id, c]));
+const REGIONS = ["日本","北米","欧州","アジア・他"];
+const ATTRS = [
+  {k:"booth", label:"知財・情報フェア出展", test:v => !!v.booth},
+  {k:"mcp",   label:"MCP／AIエージェント連携", test:v => v.mcp},
+  {k:"new",   label:"2026年の新規・大型更新", test:v => v.new},
+];
+const state = {q:"", attr:new Set(), region:new Set(), cat:new Set()};
+
+$("#meta").textContent =
+  `${DB.meta.vendors}社 / ${DB.meta.cats}工程 / うちフェア出展 ${DB.meta.exhibitors}社 — 更新 ${DB.meta.updated}`;
+
+function opt(group, key, label, count, extra){
+  const id = `${group}-${key}`;
+  const l = document.createElement("label");
+  l.className = "opt"; l.htmlFor = id;
+  l.innerHTML =
+    `<input type="checkbox" id="${id}" data-g="${group}" data-k="${key}">` +
+    (extra ? `<span class="cno">${extra}</span>` : "") +
+    `<span class="lbl">${label}</span><span class="n">${count}</span>`;
+  return l;
+}
+function build(){
+  const fa = $("#f-attr");
+  ATTRS.forEach(a => fa.appendChild(opt("attr", a.k, a.label, VENDORS.filter(a.test).length)));
+  const fr = $("#f-region");
+  REGIONS.forEach(r => fr.appendChild(
+    opt("region", r, r, VENDORS.filter(v => v.region === r).length)));
+  const fc = $("#f-cat");
+  let phase = null;
+  CATS.forEach(c => {
+    if (c.phase !== phase){
+      phase = c.phase;
+      const h = document.createElement("p");
+      h.className = "phase-h"; h.textContent = phase;
+      fc.appendChild(h);
+    }
+    fc.appendChild(opt("cat", c.cat_id, c.title,
+      VENDORS.filter(v => v.cats.includes(c.cat_id)).length, c.cat_id));
+  });
+  document.addEventListener("change", e => {
+    const t = e.target;
+    if (!t.dataset || !t.dataset.g) return;
+    const set = state[t.dataset.g];
+    t.checked ? set.add(t.dataset.k) : set.delete(t.dataset.k);
+    render();
+  });
+  $("#q").addEventListener("input", e => { state.q = e.target.value.trim(); render(); });
+  $("#reset").addEventListener("click", () => {
+    state.q = ""; $("#q").value = "";
+    ["attr","region","cat"].forEach(g => state[g].clear());
+    document.querySelectorAll('.opt input').forEach(i => i.checked = false);
+    render();
+  });
+  $("#mobtoggle").addEventListener("click", () => {
+    const s = $("#side"), open = s.classList.toggle("open");
+    $("#mobtoggle").setAttribute("aria-expanded", open);
+    $("#mobtoggle").querySelector(".chev").textContent = open ? "－" : "＋";
+  });
+}
+
+function match(v){
+  if (state.region.size && !state.region.has(v.region)) return false;
+  for (const k of state.attr){
+    const a = ATTRS.find(x => x.k === k);
+    if (a && !a.test(v)) return false;
+  }
+  if (state.cat.size && !v.cats.some(c => state.cat.has(c))) return false;
+  if (state.q){
+    const hay = [v.name, v.desc, v.exhibit || "", v.note || "", v.booth || "",
+                 ...v.cats.map(c => CATMAP[c].title)].join(" ").toLowerCase();
+    if (!state.q.toLowerCase().split(/\s+/).every(w => hay.includes(w))) return false;
+  }
+  return true;
+}
+
+function card(v){
+  const el = document.createElement("article");
+  el.className = "card"; el.dataset.r = v.region;
+  const name = v.url
+    ? `<a href="${v.url}" target="_blank" rel="noopener">${v.name}</a>`
+    : `<span class="nm">${v.name}</span>`;
+  const badges =
+    (v.mcp ? '<span class="bd m">MCP</span>' : "") +
+    (v.new ? '<span class="bd n">2026</span>' : "");
+  const booth = v.booth && v.booth !== "—"
+    ? `<p class="booth"><span class="bn">${v.booth}</span><span class="bx">${v.exhibit || ""}</span></p>`
+    : (v.booth ? `<p class="booth"><span class="bx">フェア出展（ブース番号は会場案内を参照）</span></p>` : "");
+  const prim = new Set(v.primary || []);
+  const order = [...v.cats].sort((a, b) => (prim.has(b) - prim.has(a)) || a.localeCompare(b));
+  const tags = order.filter(c => CATMAP[c]).map(c =>
+    `<span class="tag${prim.has(c) ? " p" : ""}">${CATMAP[c].title}</span>`).join("");
+  const dep = v.deployment ? `<p class="dep">提供形態：${v.deployment}</p>` : "";
+  el.innerHTML =
+    `<div class="cname">${name}<span class="rg">${v.region}</span>` +
+    (badges ? `<span class="badges">${badges}</span>` : "") + `</div>` +
+    `<p class="desc">${v.desc}</p>${dep}${booth}<div class="tags">${tags}</div>`;
+  return el;
+}
+
+function render(){
+  const hits = VENDORS.filter(match);
+  const out = $("#out");
+  out.textContent = "";
+  $("#count").innerHTML = `<b>${hits.length}</b> / ${VENDORS.length} 社`;
+  const on = state.q || state.attr.size || state.region.size || state.cat.size;
+  $("#reset").disabled = !on;
+
+  if (!hits.length){
+    out.innerHTML = `<p class="empty">該当するベンダーがありません。<br>
+      <b>${state.q ? `「${state.q}」` : "選んだ条件"}</b>を外すか、工程の絞り込みを広げてください。</p>`;
+    return;
+  }
+  const shown = state.cat.size ? CATS.filter(c => state.cat.has(c.cat_id)) : CATS;
+  const seen = new Set();
+  shown.forEach(c => {
+    const rows = hits.filter(v => v.cats.includes(c.cat_id));
+    if (!rows.length) return;
+    rows.forEach(v => seen.add(v.name));
+    const sec = document.createElement("section");
+    sec.className = "sect";
+    sec.innerHTML =
+      `<div class="sect-h"><span class="no">${c.cat_id}</span><h2>${c.title}</h2>` +
+      `<span class="qty">${rows.length}社</span></div><p class="sect-s">${c.subtitle}</p>`;
+    const g = document.createElement("div");
+    g.className = "grid";
+    rows.forEach(v => g.appendChild(card(v)));
+    sec.appendChild(g);
+    out.appendChild(sec);
+  });
+}
+
+build();
+render();
+</script>
