@@ -5,3 +5,4 @@ web/_preview.html
 
 # ブログ・note用の記事原稿は公開前のためリポジトリに含めない（ローカルにのみ保管）
 assets/*.md
+.venv/

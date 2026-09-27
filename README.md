@@ -6,6 +6,23 @@
 
 ---
 
+## Webアプリ（Streamlit）
+
+名鑑は Streamlit Community Cloud で公開する。アプリは `data/*.csv` を直接読み、`scripts/build.py` と同じ検査を通してから表示するので、**CSVを直して main に push すれば、公開中のアプリもそのまま更新される**。データに不整合があれば、アプリは表示を止めてエラーを出す。
+
+できること：キーワード検索、属性（フェア出展・MCP対応・2026年更新・オンプレミス）・地域・工程での絞り込み、工程ごとの根拠の表示、工程別の社数と工程×地域の集計グラフ、フェア出展社のブース順一覧、絞り込み結果のCSV／Excel／JSONダウンロード。
+
+ローカルで動かす：
+
+```bash
+pip install -r requirements.txt
+streamlit run streamlit_app.py
+```
+
+無料枠のため、12時間アクセスがないとスリープし、次に開いた人は起動まで数十秒待つ。
+
+---
+
 ## すぐ使う
 
 ### Excelで開く
@@ -60,13 +77,13 @@ SELECT v.name, vc.role, vc.source FROM vendor_categories vc
 python3 scripts/query.py sql "SELECT region, count(*) FROM vendors GROUP BY region"
 ```
 
-### Webツールに反映する
+### オフライン用の静的版
+
+`web/ipai_finder.html` は、サーバーなしでブラウザだけで動く版。データを更新したら次を実行してから開く。
 
 ```bash
 cp export/data.js web/data.js
 ```
-
-`web/ipai_finder.html` をブラウザで開けば、そのまま検索ツールとして使える。作成者はこれを Claude の Artifact として公開しており、再公開すると公開ページも最新になる。
 
 ---
 
@@ -96,7 +113,10 @@ cp export/data.js web/data.js
 │   └── 02_review_20260927_pass2.py      同2巡目（実行済み）
 ├── logs/
 │   └── 20260927_review.csv     見直しで何をどう変えたかの記録（160件、根拠つき）
-├── web/                        公開中のWebツール（Artifactの公開元）
+├── streamlit_app.py            Webアプリ本体（Streamlit Community Cloudで公開）
+├── requirements.txt            アプリの依存パッケージ（版を固定）
+├── .streamlit/config.toml      アプリの配色設定
+├── web/                        オフライン用の静的版
 │   ├── ipai_finder.html        検索ツール本体
 │   └── data.js                 export/data.js のコピー
 ├── assets/                     カオスマップ画像と記事の保管
@@ -194,7 +214,8 @@ python3 scripts/query.py sql "SELECT name, updated_at FROM vendors ORDER BY upda
 | カオスマップ 統合版・グローバル版・日本版 | `assets/*.png` `.svg` |
 | 記事「生成AI×知財ベンダーカオスマップ 2026年9月版」 | 公開準備中（原稿はローカルの `assets/` にのみ保管し、リポジトリには含めていない） |
 | 記事「生成AIサービスを目的に知財情報フェアをあるくなら」 | 同上 |
-| Webツール「知財AIベンダー名鑑」 | `web/ipai_finder.html`（`web/data.js` と同じフォルダに置けばブラウザで開ける） |
+| Webアプリ「知財AIベンダー名鑑」 | `streamlit_app.py`（Streamlit Community Cloudで公開） |
+| 静的版の検索ツール | `web/ipai_finder.html` |
 
 カオスマップと記事の生成スクリプトは作成者のローカル環境に残してある。データは本DBに移行済みなので、再生成するなら `export/vendors.json` を読む形で組み直せる。
 
