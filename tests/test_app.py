@@ -14,7 +14,7 @@ from streamlit.testing.v1 import AppTest
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 APP = str(ROOT / "streamlit_app.py")
 ATTRS = ["ja", "onprem", "no_training", "trial", "pricing"]
-TABS = ["探す", "比較する", "市場の全体像", "知財・情報フェア2026", "掲載基準・データ"]
+TABS = ["探す", "比較する", "市場の全体像", "掲載基準・データ"]
 
 
 def run_app():

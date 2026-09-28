@@ -31,9 +31,8 @@ ROOT = pathlib.Path(__file__).parent
 REGIONS = ["日本", "北米", "欧州", "アジア・他"]
 MAX_COMPARE = 5          # 比較できる社数の上限
 PAGE = 24                # 一度に表示するカードの数
-SORTS = ["国内の社を先に", "社名順", "ブース順"]
-TABS = ["探す", "比較する", "市場の全体像", "知財・情報フェア2026", "掲載基準・データ"]
-FAIR = "2026 知財・情報フェア＆コンファレンス（2026年9月16〜18日・東京ビッグサイト東3ホール）"
+SORTS = ["国内の社を先に", "社名順"]
+TABS = ["探す", "比較する", "市場の全体像", "掲載基準・データ"]
 
 # グラフの配色（LeXi/Vent の青をもとに、代表/対応の2段を --ordinal で検証済み）
 C_PRIMARY = "#1e5a9f"       # 代表的な工程（LeXi/Vent の青）
@@ -90,9 +89,6 @@ div[class*="st-key-card_"] [data-testid="stCheckbox"] p{font-size:.84rem;color:v
 .origin{flex:none;font-size:.72rem;border-radius:999px;padding:.12rem .6rem;white-space:nowrap;font-weight:600}
 .origin.jp{background:var(--blue-tint);color:var(--blue)}
 .origin.intl{background:#efeeec;color:var(--muted)}
-.tags{margin:.4rem 0 0;display:flex;gap:.3rem;flex-wrap:wrap}
-.tag{font-size:.72rem;color:var(--muted);background:#f2f1ef;border-radius:6px;padding:.06rem .45rem}
-.tag.booth{background:var(--indigo-tint);color:var(--indigo);font-weight:700;font-family:var(--latin)}
 .vc-desc{font-size:.88rem;color:var(--text);line-height:1.7;margin:.55rem 0 .5rem;display:-webkit-box;
 -webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
 .chips{display:flex;flex-wrap:wrap;gap:.3rem;margin:.1rem 0 .1rem}
@@ -114,8 +110,8 @@ border-radius:4px;padding:0 .3rem}
 .cond.unk{border:1px dashed #d2d0cc;color:#a0a0a0}
 .unk-line{font-size:.72rem;color:#a0a0a0;margin-top:.05rem}
 .vc-foot{margin:.55rem 0 .1rem;font-size:.84rem}
-.vc-foot a,.cmp a,.bc a,.ev a{color:var(--blue-bright);text-decoration:none;font-weight:700}
-.vc-foot a:hover,.cmp a:hover,.bc a:hover{text-decoration:underline}
+.vc-foot a,.cmp a,.ev a{color:var(--blue-bright);text-decoration:none;font-weight:700}
+.vc-foot a:hover,.cmp a:hover{text-decoration:underline}
 .empty{border:1px dashed #cfccc7;border-radius:14px;padding:1.6rem;color:var(--muted);text-align:center;background:#fff;line-height:1.8}
 .st-key-tiles{background:#fff;border:1px solid var(--line);border-radius:14px;padding:.9rem 1.1rem .9rem;gap:.6rem}
 .st-key-tiles .ph{font-size:.76rem;font-weight:800;color:var(--blue);letter-spacing:.1em;padding-top:.45rem;white-space:nowrap}
@@ -138,14 +134,6 @@ div[class*="st-key-tilerow_"] [data-testid="stButton"] button p{font-size:.88rem
 .cmp .chips{gap:.25rem}
 .cmp .cmp-sec{background:#f1f5fa;color:var(--blue);font-size:.74rem;font-weight:800;letter-spacing:.1em;padding:.4rem .95rem}
 .cmp .cmp-sec span{position:sticky;left:.95rem}
-.booths{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:.75rem;margin:.35rem 0 1rem}
-.bc{background:#fff;border:1px solid var(--line);border-radius:12px;padding:.8rem .95rem}
-.bc .no{font-family:var(--latin);font-size:.84rem;color:var(--indigo);background:var(--indigo-tint);border-radius:6px;
-padding:.04rem .45rem;font-weight:800}
-.bc .nm{font-weight:800;margin:.45rem 0 .1rem;color:var(--ink)}
-.bc .ex{font-size:.8rem;color:var(--blue);margin-bottom:.3rem}
-.bc .nt{font-size:.8rem;color:var(--muted);line-height:1.6;display:-webkit-box;-webkit-line-clamp:3;
--webkit-box-orient:vertical;overflow:hidden;margin-bottom:.4rem}
 .defs{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:.75rem;margin:.35rem 0 1rem}
 .def{background:#fff;border:1px solid var(--line);border-top:3px solid var(--blue);border-radius:12px;padding:.8rem .95rem}
 .def b{display:block;margin-bottom:.2rem;color:var(--ink)}
@@ -203,8 +191,6 @@ def build_view(f):
 
     all_c = vc.groupby("vendor_id")["cat_id"].apply(list)
     pri_c = vc[vc.role == "主"].groupby("vendor_id")["cat_id"].apply(list)
-    ex = f["exhibitions"]
-    ex = ex[ex.year.astype(str) == "2026"].drop_duplicates("vendor_id").set_index("vendor_id")
 
     as_list = lambda x: x if isinstance(x, list) else []
     title = dict(zip(C.cat_id, C.title))
@@ -213,12 +199,6 @@ def build_view(f):
     V["secondary"] = V.apply(lambda r: [c for c in r["cats"] if c not in r["primary"]], axis=1)
     V["代表工程"] = V["primary"].apply(lambda cs: " / ".join(title[c] for c in cs))
     V["対応工程"] = V["secondary"].apply(lambda cs: " / ".join(title[c] for c in cs))
-    V["ブース"] = V.vendor_id.map(ex["booth"]).fillna("")
-    V["展示"] = V.vendor_id.map(ex["exhibit_name"]).fillna("")
-    V["展示内容"] = V.vendor_id.map(ex["exhibit_note"]).fillna("")
-    V["フェア出展"] = V.vendor_id.isin(ex.index)
-    V["MCP"] = V.is_mcp.astype(str) == "1"
-    V["2026年更新"] = V.is_new_2026.astype(str) == "1"
     V["国内"] = V.region == "日本"
 
     va = f["vendor_attributes"]
@@ -229,11 +209,9 @@ def build_view(f):
         V[a + "_src"] = V.vendor_id.map(sub["source"]).fillna("")
 
     notes = V[[a + "_note" for a in A.attr_id]].apply(lambda r: " ".join(r), axis=1)
-    V["_hay"] = (V.name + " " + V.description + " " + V.country + " " + V["展示"] + " "
-                 + V["展示内容"] + " " + V["ブース"] + " " + notes + " "
+    V["_hay"] = (V.name + " " + V.description + " " + V.country + " " + notes + " "
                  + V["cats"].apply(lambda cs: " ".join(title[c] for c in cs))).str.lower()
     V["_name"] = V.name.str.lower()
-    V["_booth"] = V["ブース"].replace("", "ZZZ")
     V["_intl"] = ~V["国内"]
     return V.sort_values(["_intl", "_name"]).reset_index(drop=True), C, A, vc
 
@@ -424,14 +402,11 @@ def origin_badge(r):
 
 
 def card_html(r):
-    booth = (f'<span class="tag booth">ブース {esc(r["ブース"])}</span>' if r["ブース"]
-             else ('<span class="tag booth">フェア出展</span>' if r["フェア出展"] else ""))
     link = (f'<a href="{esc(r["url"])}" target="_blank" rel="noopener">公式サイト ↗</a>'
             if r["url"] else '<span style="color:#8b95a3">公式サイト未確認</span>')
     return ("<div>"
             f'<div class="vc-top"><div class="vc-name">{esc(r["name"])}</div>{origin_badge(r)}</div>'
-            + (f'<div class="tags">{booth}</div>' if booth else "")
-            + f'<div class="vc-desc" title="{esc(r["description"])}">{esc(r["description"])}</div>'
+            f'<div class="vc-desc" title="{esc(r["description"])}">{esc(r["description"])}</div>'
             f'<div class="chips">{task_chips(r)}</div>'
             f"{price_html(r)}"
             f'<div class="conds">{cond_line(r)}</div>'
@@ -451,8 +426,7 @@ def sort_frame(fr):
     s = ss.get("sort") or SORTS[0]
     fr = fr.copy()
     fr["_hit"] = fr["cats"].apply(lambda cs: -len(set(SEL) & set(cs))) if len(SEL) > 1 else 0
-    keys = {"社名順": ["_hit", "_name"], "ブース順": ["_hit", "_booth", "_name"]}.get(
-        s, ["_hit", "_intl", "_name"])
+    keys = ["_hit", "_name"] if s == "社名順" else ["_hit", "_intl", "_name"]
     return fr.sort_values(keys)
 
 
@@ -502,11 +476,6 @@ def compare_html(P, diff_only=False):
             ("対応している業務", lambda r: chips_or_dash(r["secondary"], "")),
         ]),
         ("導入条件", [(ATTR_LABEL[a], lambda r, a=a: attr_cell(r, a)) for a in ATTR_IDS]),
-        ("知財・情報フェア2026", [
-            ("ブース・展示", lambda r: (
-                f'<span class="tag booth">ブース {esc(r["ブース"] or "番号未取得")}</span> {esc(r["展示"])}'
-                f'<span class="sub">{esc(r["展示内容"])}</span>') if r["フェア出展"] else '<span class="sub">出展なし</span>'),
-        ]),
         ("掲載時の記載", [
             ("提供形態", lambda r: esc(r["deployment"]) or DASH),
         ]),
@@ -553,7 +522,6 @@ def compare_csv(P):
         out[f"{ATTR_LABEL[a]}（メモ）"] = P[a + "_note"].values
         out[f"{ATTR_LABEL[a]}（根拠）"] = P[a + "_src"].values
     out["提供形態（掲載時の記載）"] = P.deployment.values
-    out["知財・情報フェア2026のブース"] = P["ブース"].values
     out["紹介"] = P.description.values
     out["公式サイト"] = P.url.values
     return out.to_csv(index=False).encode("utf-8-sig")
@@ -583,7 +551,7 @@ st.markdown(
     '<div class="stats">'
     f'<div class="stat"><b>{len(V)}</b><span>掲載ベンダー</span></div>'
     f'<div class="stat"><b>{len(C)}</b><span>業務工程</span></div>'
-    f'<div class="stat"><b>{int(V["フェア出展"].sum())}</b><span>知財・情報フェア2026 出展</span></div>'
+    f'<div class="stat"><b>{len(ATTR_IDS)}</b><span>導入条件（根拠つき）</span></div>'
     f'<div class="stat"><b>{esc(UPDATED)}</b><span>最終更新</span></div>'
     "</div></div>", unsafe_allow_html=True)
 
@@ -608,7 +576,7 @@ with st.container(horizontal=True, vertical_alignment="center", gap="medium", ke
         st.button(f"比較する（{len(ss.shortlist)}社）", on_click=go_compare, type="primary",
                   icon=":material/compare_arrows:", width="content")
 
-t_find, t_cmp, t_map, t_fair, t_data = st.tabs(TABS, key="tab", on_change="rerun")
+t_find, t_cmp, t_map, t_data = st.tabs(TABS, key="tab", on_change="rerun")
 
 
 # ---------------------------------------------------------------------------
@@ -797,46 +765,11 @@ with t_map:
 
 
 # ---------------------------------------------------------------------------
-# 知財・情報フェア2026
-# ---------------------------------------------------------------------------
-def booth_card(r):
-    tasks = "".join(f'<span class="chip main">{esc(SHORT[c])}</span>' for c in r["primary"])
-    ok = "".join(f'<span class="cond yes">✓ {esc(ATTR_SHORT[a])}</span>' for a in ATTR_IDS if r[a] == "あり")
-    link = f'<a href="{esc(r["url"])}" target="_blank" rel="noopener">公式サイト ↗</a>' if r["url"] else ""
-    return (f'<div class="bc"><span class="no">{esc(r["ブース"] or "番号未取得")}</span>'
-            f'<div class="nm">{esc(r["name"])}</div>'
-            + (f'<div class="ex">{esc(r["展示"])}</div>' if r["展示"] else "")
-            + (f'<div class="nt" title="{esc(r["展示内容"])}">{esc(r["展示内容"])}</div>' if r["展示内容"] else "")
-            + f'<div class="chips">{tasks}</div>'
-            + (f'<div style="margin-top:.4rem">{ok}</div>' if ok else "")
-            + f'<div style="margin-top:.35rem;font-size:.82rem">{link}</div></div>')
-
-
-with t_fair:
-    if t_fair.open:
-        st.markdown(f'<div class="note-line">{esc(FAIR)}の出展社のうち、AI・生成AIを組み込んだ製品を公表していた社。'
-                    'ブース番号順に、会場の列ごとに並べています。サイドバーの条件も効きます。</div>',
-                    unsafe_allow_html=True)
-        F = H[H["フェア出展"]].copy()
-        if F.empty:
-            st.markdown('<div class="empty">条件に合う出展社がありません。</div>', unsafe_allow_html=True)
-        else:
-            F = F.sort_values(["_booth", "_name"])
-            F["_zone"] = F["ブース"].str.extract(r"^(\d+-[A-Z]+)", expand=False).fillna("")
-            for zone, g in F.groupby("_zone", sort=False):
-                head = f"{zone[-1]}列（{zone}）" if zone else "ブース番号を取得できなかった社"
-                st.markdown(f'<div class="sec"><span class="h">{esc(head)}</span><span class="n">{len(g)}社</span></div>'
-                            f'<div class="booths">{"".join(booth_card(r) for _, r in g.iterrows())}</div>',
-                            unsafe_allow_html=True)
-
-
-# ---------------------------------------------------------------------------
 # 掲載基準・データ
 # ---------------------------------------------------------------------------
 def export_frame(frame):
     out = frame[["vendor_id", "name", "region", "country", "代表工程", "対応工程",
-                 *ATTR_IDS, "deployment", "MCP", "2026年更新", "フェア出展", "ブース", "展示",
-                 "description", "url"]].copy()
+                 *ATTR_IDS, "deployment", "description", "url"]].copy()
     return out.rename(columns={"name": "社名", "region": "地域", "country": "国",
                                "代表工程": "主力の業務", "対応工程": "対応している業務",
                                **{a: ATTR_LABEL[a] for a in ATTR_IDS},
@@ -911,6 +844,6 @@ with t_data:
                     st.write("・", w_)
 
 st.divider()
-st.caption("出典：各社公式サイト・プレスリリース、2026 知財・情報フェア＆コンファレンス出展社情報。"
+st.caption("出典：各社公式サイト・プレスリリースなどの公開情報。"
            "機能の実効性は検証していません。紹介文の数値は各社の公表値です。　"
            "整理：上村侑太郎（[LeXi/Vent](https://lexi2vent.com/)）")
