@@ -2,7 +2,7 @@
 
 生成AI・AIを組み込んだ製品／サービスを提供する知財領域のベンダーを、いつでも取り出せる形で保管するデータベース。
 
-**現在の内容**：152社（うち買収済み1社を除く現役） / 18工程・381の工程割り当て / 導入条件5項目・215件の判定（根拠URLつき） / 2026年知財・情報フェア出展86社 / 対象外24機関（2026年9月27日時点）
+**現在の内容**：157社（現役。買収・統合済みの2社を除く） / 18工程・400の工程割り当て / 導入条件5項目・223件の判定（根拠URLつき） / 2026年知財・情報フェア出展87社 / 対象外24機関（2026年10月3日時点）
 
 ---
 
@@ -104,12 +104,12 @@ cp export/data.js web/data.js
 ```
 知財AIベンダーDB/
 ├── data/                       ← ここがマスター。編集するのはこの7ファイルだけ
-│   ├── vendors.csv             ベンダー本体（153行、うち1社は買収済み）
+│   ├── vendors.csv             ベンダー本体（159行、うち2社は買収・統合済み）
 │   ├── categories.csv          18工程の定義
-│   ├── vendor_categories.csv   どの社がどの工程か（多対多・381行、主/副と根拠つき）
+│   ├── vendor_categories.csv   どの社がどの工程か（多対多・402行、主/副と根拠つき）
 │   ├── attributes.csv          導入条件5項目の定義
-│   ├── vendor_attributes.csv   どの社がどの導入条件を満たすか（215行、根拠URL・確認日つき）
-│   ├── exhibitions.csv         展示会の出展記録（86行）
+│   ├── vendor_attributes.csv   どの社がどの導入条件を満たすか（223行、根拠URL・確認日つき）
+│   ├── exhibitions.csv         展示会の出展記録（87行）
 │   └── excluded.csv            掲載基準から外した24機関・企業
 ├── db/
 │   └── ipai.sqlite             自動生成。手で触らない
@@ -124,9 +124,11 @@ cp export/data.js web/data.js
 │   ├── query.py                上記のコマンド群
 │   ├── 00_migrate_from_drafts.py        初回移行（再実行不要）
 │   ├── 01_review_20260927.py            工程の網羅化・URL全件修正（実行済み）
-│   └── 02_review_20260927_pass2.py      同2巡目（実行済み）
+│   ├── 02_review_20260927_pass2.py      同2巡目（実行済み）
+│   └── 03_update_20261003.py            10月3日の更新（実行済み。二度流しても同じ結果）
 ├── logs/
-│   └── 20260927_review.csv     見直しで何をどう変えたかの記録（161件、根拠つき）
+│   ├── 20260927_review.csv     見直しで何をどう変えたかの記録（161件、根拠つき）
+│   └── 20261003_review.csv     10月3日の更新の記録（45件、根拠つき）
 ├── streamlit_app.py            Webアプリ本体（Streamlit Community Cloudで公開）
 ├── requirements.txt            アプリの依存パッケージ（版を固定）
 ├── .streamlit/config.toml      アプリの配色設定（LeXi/Vent の配色）
@@ -145,7 +147,7 @@ cp export/data.js web/data.js
 
 ### 1社追加する
 
-1. `data/vendors.csv` に1行足す。`vendor_id` は既存の最大値+1（`V154` など）
+1. `data/vendors.csv` に1行足す。`vendor_id` は既存の最大値+1（`V160` など）
 2. `data/vendor_categories.csv` に、その `vendor_id` と工程IDの組を足す（複数可）。代表的な工程は `role=主`、それ以外に対応している工程は `role=副` とし、`source` に確認した根拠（URLや資料名）を書く
 3. 展示会で見つけた社なら `data/exhibitions.csv` にも足す
 4. `python3 scripts/build.py` を実行
@@ -286,6 +288,20 @@ python3 scripts/query.py sql "SELECT name, updated_at FROM vendors ORDER BY upda
 変更はすべて `logs/20260927_review.csv` に根拠つきで残している。URLは推測で入れたものが混じっていたため、今後は**到達確認できたURLしか入れない**。
 
 ---
+
+## 2026年10月3日の更新
+
+9月27日以降のニュース（海外の知財メディア、国内のプレスリリース）と、掲載データの不備を調べ直した。9月27日以降に掲載社の大きな発表（買収・資金調達・新製品）は見当たらず、主な変更は掲載漏れの追加と、社名・地域・URLの修正である。変更は `scripts/03_update_20261003.py` で適用し、`logs/20261003_review.csv` に根拠つきで残している。
+
+| 区分 | 内容 |
+|---|---|
+| 新規追加（6社） | トヨタテクニカルディベロップメント（生成AIの知財業務支援ツール AI Ninja、旧swimy）、ClaimHit（侵害の証拠とクレームチャート）、PatentWatch（クレームチャート・SEPの対応付け）、BlackBox IP（IDS・特許事務の自動化）、Black Hills IP（期限管理・年金の自動化、Otto IP）、Evalueserve（調査受託とAI分析基盤 Insightloupe） |
+| 社名の変更 | NLPatent → Clerq（2026年8月に改称し、発明届出の一次評価と特許性調査のエージェントを開始） |
+| 名称の修正 | IPdash Intelligence → IPdash東京特許事務所（IPdash Intelligence は同所のソフトウェアのブランド名） |
+| 地域の修正 | アイパクトリ：日本 → アジア・他（韓国）。本社は韓国ソウル。あわせて「日本語で相談・導入できる」を未確認に戻した |
+| URLの登録 | AI特許翻訳（iptrans.jp。特許翻訳株式会社から社名変更）、アイパクトリ（ipactory.com）。URL未確認は0社になった |
+| 補記 | AI Samurai は2025年6月からトヨタテクニカルディベロップメントの完全子会社 |
+| 統合扱い | FoundationIP は Clarivate の製品のため、社名で載せる方針に合わせて Clarivate に統合（`status=merged`） |
 
 ## 2026年9月27日の導入条件の調査
 

@@ -1,9 +1,9 @@
 ﻿vendor_id,name,region,country,url,description,deployment,is_mcp,is_new_2026,status,first_listed,updated_at,note
-V001,AI Samurai,日本,日本,https://aisamurai.co.jp/,出願支援のONEと入門版ZERO、2026年7月開始のIP Samurai MCPサーバーを提供。MCPで生成AIが特許実データを参照する構成をとる。,クラウド（MCP接続可）,1,1,active,2026-09,2026-09-17,
+V001,AI Samurai,日本,日本,https://aisamurai.co.jp/,出願支援のONEと入門版ZERO、2026年7月開始のIP Samurai MCPサーバーを提供。MCPで生成AIが特許実データを参照する構成をとる。,クラウド（MCP接続可）,1,1,active,2026-09,2026-10-03,2025年6月にトヨタテクニカルディベロップメントの完全子会社。同社のAI Ninjaと連携
 V002,AIBS,日本,日本,https://korrepet.com/,オールインワン言語ツールKORREPETを開発。翻訳38年・知財21年の実務知見を生成AIと接続する。,,0,1,active,2026-09,2026-09-27,
 V003,AIDAO,日本,日本,https://aidao-pjt.com/,現場に技術者が入り込むFDE方式で、知財部門が自らAIを運用できる状態まで伴走する。,,0,1,active,2026-09,2026-09-27,
 V004,AIVisor,日本,日本,https://aivisor.co.jp/,特許調査パッケージPatVisorを提供。請求項と技術内容を解析し、根拠と次の打ち手まで示す。国内サーバー完結。,クラウド（国内サーバー完結）,0,1,active,2026-09,2026-09-17,
-V005,AI特許翻訳,日本,日本,,特許翻訳に特化したAI翻訳サービスを提供する国内事業者。,,0,1,active,2026-09,2026-09-17,
+V005,AI特許翻訳,日本,日本,https://iptrans.jp/,特許翻訳株式会社から社名を変え、生成AIの一次訳を熟練の特許翻訳者が一文ずつ校正する特許翻訳サービスを展開する。,,0,1,active,2026-09,2026-10-03,
 V006,ASU,日本,日本,https://www.asu.co.jp/,生成AI連携サービス「Aicrea」は発明の構成要素を自動抽出し、構成要素ごとに先行技術との類似度を算出して根拠付きの対比表を出力する。出願支援ソフトPPW8、知財管理システムDBBOY/uni、契約管理ContractEyesも扱う。,,0,1,active,2026-09,2026-09-27,
 V007,Alphalect.ai,欧州,ドイツ,https://alphalect.ai/,欧州実務向けのドラフティングAI。EPC特有の記載要件に沿った表現を補助する。,,0,0,active,2026-09,2026-09-17,
 V008,Alt Legal,北米,米国,https://www.altlegal.com/,商標ドケット管理のSaaS。各国官庁のデータを自動取り込みして期限を管理する。,,0,0,active,2026-09,2026-09-17,
@@ -29,7 +29,7 @@ V027,Dennemeyer,欧州,ルクセンブルク,https://www.dennemeyer.com/,ルク�
 V028,Docket Navigator,北米,米国,https://www.docketnavigator.com/,米国知財訴訟の書面と判断を日次で追える調査サービス。,,0,0,active,2026-09,2026-09-17,
 V029,DrugPatentWatch,北米,米国,https://www.drugpatentwatch.com/,FDAのOrange Book/Purple Bookと訴訟データを結合。後発品参入時期の予測に用いられる。,,0,0,active,2026-09,2026-09-17,
 V030,Edge,北米,米国,https://www.tryedge.io/,高速なドラフト生成と図面エディタを統合。図面と本文の整合を取りながら書ける。,,0,0,active,2026-09,2026-09-17,
-V031,FoundationIP,北米,米国,https://www.cpaglobal.com/,クラウド型IPMS。中小の事務所から企業まで、ライフサイクル全体を一つで扱う。,,0,0,active,2026-09,2026-09-17,
+V031,FoundationIP,北米,米国,https://www.cpaglobal.com/,クラウド型IPMS。中小の事務所から企業まで、ライフサイクル全体を一つで扱う。,,0,0,merged,2026-09,2026-10-03,Clarivate の知財管理製品の一つ。社名で掲載する方針により Clarivate に統合扱い（2026-10-03）
 V032,Fovea IP,欧州,ベルギー,https://www.foveaip.com/,ベルギー発。Lighthouse IPのデータを基盤に、197の国・機関の商標と101の意匠を単一プラットフォームで検索・監視する。,,0,1,active,2026-09,2026-09-17,
 V033,GMOブランドセキュリティ,日本,日本,https://brandsecurity.gmo/,商標・ドメインの一元管理となりすまし対策。知財情報管理システムも提供する。,,0,1,active,2026-09,2026-09-27,
 V034,Genzo AI,日本,日本,https://www.genzo-ai.co.jp/,島津製作所とIP Agentが2026年4月に設立。同社知財部の暗黙知をAIプロンプトに落とし込み、明細書作成、特許翻訳、中間処理、先行技術調査、侵害予防、契約書レビューを支援するSaaSとして外販する。,クラウド,0,0,active,2026-09,2026-09-27,
@@ -42,7 +42,7 @@ V040,IP.com,北米,米国,https://ip.com/,発明創出を構造化するIQ Ideas
 V041,IP8,北米,米国,https://ip8.ai/,ポートフォリオ管理と侵害検知を接続し、使える特許と使えない特許を仕分ける。,,0,0,active,2026-09,2026-09-17,
 V042,IPRally,欧州,フィンランド,https://www.iprally.com/,フィンランド発。特許を知識グラフに変換して探す設計で、なぜ似ているかを説明できる検索を志向。,,0,1,active,2026-09,2026-09-17,
 V043,IPTech弁理士法人,日本,日本,https://iptech.jp/,生成AIを前提に実務を組み替えている特許事務所。IT分野とスタートアップ支援に強い。,,0,0,active,2026-09,2026-09-17,
-V044,IPdash Intelligence,日本,日本,https://ipdash.jp/,他社分析AI「Rival Seeker」を提供。企業を開発チーム単位まで分解して技術動向を追う。,,0,1,active,2026-09,2026-09-17,
+V044,IPdash東京特許事務所,日本,日本,https://ipdash.tokyo/rivalseeker/,他社分析AI「Rival Seeker」を、ソフトウェアブランドIPdash Intelligenceで提供する特許事務所。企業を開発チーム単位まで分解して技術動向を追う。,,0,1,active,2026-09,2026-10-03,IPdash Intelligence は同所のソフトウェアサービスのブランド名
 V045,IPオアシス,日本,日本,https://www.ipoasis.co.jp/,知財管理クラウド「IP Oasisクラウド」を提供。実際の業務フローに沿った実機デモを軸に導入を進める。,,0,1,active,2026-09,2026-09-17,
 V046,IPリッチ,日本,日本,https://iprich.jp/,最短60秒で特許価値を診断するPatent Value Analyzerと、売買・ライセンスの成約まで伴走するPatentRevenueを展開する。,,0,1,active,2026-09,2026-09-17,
 V047,ITONICS,欧州,ドイツ,https://www.itonics-innovation.com/,ドイツのイノベーション管理基盤。技術ロードマップとシグナル探索を全社で回す設計。,,0,0,active,2026-09,2026-09-17,
@@ -56,7 +56,7 @@ V054,Lightbringer,欧州,スウェーデン,https://www.lightbringer.ai/,スウ�
 V055,Markify,北米,米国,https://www.markify.com/,AI類似検索と商標ウォッチング。中小企業でも使える価格帯で提供する。,,0,0,active,2026-09,2026-09-17,
 V056,MarqVision,北米,米国,https://www.marqvision.com/,AIで模倣品と不正販売を24時間監視。2025年9月に$48Mを調達し日本市場へ本格参入した。,,0,1,active,2026-09,2026-09-27,
 V057,Minesoft,欧州,英国,https://minesoft.com/,英国発。ファミリー単位検索のPatBaseと、法的状況・権利変動を追跡するOriginを提供する。,,0,0,active,2026-09,2026-09-17,
-V058,NLPatent,北米,カナダ,https://www.nlpatent.com/,自然言語で発明を記述するだけで先行技術を探すAI検索。FTOやデューデリでの利用が多い。,,0,0,active,2026-09,2026-09-17,
+V058,Clerq,北米,カナダ,https://www.clerq-ip.com/,トロント発。2026年8月にNLPatentから社名を変え、発明届出の一次評価と、引用文献つきの特許性調査報告を約10分でまとめるエージェント型のワークフローを始めた。,,0,1,active,2026-09,2026-10-03,2026年8月にNLPatentから社名変更
 V059,NTTコミュニケーションズ,日本,日本,https://www.ntt.com/about-us/press-releases/news/article/2026/0730.html,2026年7月にアイデアシート作成支援AIエージェントの提供を開始した。,,0,1,active,2026-09,2026-09-17,
 V060,NTTデータ,日本,日本,https://www.nttdata.com/global/ja/news/topics/2026/081900/,2026年10月以降に発明発掘支援サービスを先行提供。AIが発明相談から発明提案書作成までをつなぐ。,,0,1,active,2026-09,2026-09-17,
 V061,NineSigma,北米,米国,https://www.ninesigma.com/,技術課題を公開して解決者を募るチャレンジ型のスカウティングを提供する。,,0,0,active,2026-09,2026-09-17,
@@ -103,7 +103,7 @@ V101,ktMINE,北米,米国,https://www.ktmine.com/,ライセンス契約とロイ
 V102,root ip,日本,日本,https://rootip.co.jp/,企業版と事務所版を持つ国産IPMS「root ipクラウド」を提供。期限・年金・電子包袋を一元管理する。,,0,0,active,2026-09,2026-09-17,
 V103,wert intelligence,アジア・他,韓国,https://www.wertcorp.com/,"韓国発。106法域・1億7,000万件の特許文献で訓練した特許専用LLM「PlutoLM」を基盤に、検索のkeywert、分析のInsight、化学構造式の画像検索Chemistryを展開。汎用LLMが苦手とする請求項の解釈と技術的等価性の判断を狙う。LG電子が全社導入した。",,0,1,active,2026-09,2026-09-27,
 V104,yet2,北米,米国,https://www.yet2.com/,技術の探索とマッチングを仲介するオープンイノベーション支援。,,0,0,active,2026-09,2026-09-17,
-V105,アイパクトリ,日本,日本,,AIを使った知財実務の底上げを掲げる新興ベンダー。2026年の知財・情報フェアに出展した。,,0,1,active,2026-09,2026-09-17,
+V105,アイパクトリ,アジア・他,韓国,https://www.ipactory.com/,韓国ソウル発（2020年設立）。生成AIとRAGを使い、特許明細書の作成を支えるIPEDIT draftと、翻訳のIPEDIT translateを提供する。2025年7月にサムスン電子とAI特許文書作成支援システムの開発契約を結んだ。,,0,1,active,2026-09,2026-10-03,初版で国内企業としていたのは誤り（本社は韓国ソウル）
 V106,アイビーリサーチ,日本,日本,https://www.ibr.co.jp/,審査済みの特許公報だけを学習した特許専用LLM「AIPs」を、GPUを使わずCPUのみのスタンドアロン環境で動かす。図面や化学式の画像から発明を理解し、段落単位で生成・確認・修正しながら明細書を組み立てる。出願支援ソフト「アナリスター」も持つ。,ローカル実行（CPU・オフライン）,0,1,active,2026-09,2026-09-27,
 V107,アイ・アール・ディー,日本,日本,https://www.ird.co.jp/,発明書類から出願書類を半自動生成するPatentGeneratorを開発する。,,0,0,active,2026-09,2026-09-17,
 V108,アイ・ピー・ファイン,日本,日本,https://ipfine.jp/,調査特化のTHE調査力AIと、R&DランドスケープのIICを開発。知財DX・AXを掲げる。,,0,1,active,2026-09,2026-09-17,
@@ -152,3 +152,9 @@ V150,鷲田国際特許事務所,日本,日本,https://www.washidapat.com/,企�
 V151,Dolcera,北米,米国,https://web.dolcera.com/,1.2億件・110カ国の特許を機械学習で処理するAI検索・分析基盤PCSに加え、エージェント型AI「Lexa」と2023年公開の明細書作成AI「IP Author」を持つ。世界10大企業のうち6社が顧客。,クラウド,0,0,active,2026-09,2026-09-18,2026年フェアに出展（3-C35）。初版の判定時に見落とし、早崎聡氏のカオスマップ記事との突合で追加
 V152,Elevate Services,北米,米国,https://elevate.law/intellectual-property/,法務・知財のALSP（代替法務サービス）。AI駆動のIPインテリジェンスで特許・商標ポートフォリオの判断を支援する。2025年1月に特許調査のSagacious IPを買収し調査機能を強化した。,クラウド＋人的サービス,0,1,active,2026-09,2026-09-18,2026年フェアに出展（3-I25）。初版の判定時に見落とし、突合で追加
 V153,TRIART,日本,日本,https://triart.co.jp/,AI画像認識で新旧の図面・書類の差分を検出する「MIIDEL」を2014年に投入し、導入は400社超。縮尺の違い、スキャン時の歪み、レイアウト変更をAIが補正して同じ条件に揃えてから重ねて差分を出す。建設業・自動車製造業が中心で、電通総研も販売する。,クラウド,0,0,active,2026-09,2026-09-27,2026年フェアに出展（3-B14）。知財専用ではないが図面・書類チェック用途で出展
+V154,トヨタテクニカルディベロップメント,日本,日本,https://www.toyota-td.jp/business/ip/service/,生成AIの知財業務支援ツール「AI Ninja」（旧swimy）を提供。検索式の自動生成から母集合づくり、分類・可視化、発明検討の整理までを扱い、子会社AI Samuraiの明細書作成・中間対応とつなぐ。特許調査・解析の受託も行う。,,0,0,active,2026-10,2026-10-03,2025年6月にAI Samuraiを完全子会社化
+V155,ClaimHit,北米,米国,https://www.claimhit.com/,特許を使っている企業・製品をAIで洗い出し、侵害の証拠とクレームチャートを作る。ライセンス交渉の下調べ向けで、1特許99ドルの試用とクレジット制をとる。,クラウド,0,0,active,2026-10,2026-10-03,
+V156,PatentWatch,北米,カナダ,https://www.patentwatch.ai/,トロント発、Y Combinator出身。特許と製品資料から根拠つきのクレームチャートを作り、侵害製品の特定、標準必須特許の対応付け、有効性の確認を行う。シードで280万ドルを調達した（累計320万ドル）。,,0,0,active,2026-10,2026-10-03,
+V157,BlackBox IP,北米,米国,https://blackboxip.com/,ニューヨーク拠点。IDS（情報開示陳述書）の文献管理、拒絶理由通知への応答の雛形、特許期間調整の計算などの特許事務を、AI・機械学習で自動化する。,,0,0,active,2026-10,2026-10-03,
+V158,Black Hills IP,北米,米国,https://blackhills.ai/,ミネアポリス拠点で、Black Hills AIの名でも展開する。期限管理・年金更新・IDS管理を、自社のAIツールOtto IPと決定論的な自動化で処理し、パラリーガル業務も受託する。,,0,0,active,2026-10,2026-10-03,Black Hills AI の名称でも展開
+V159,Evalueserve,欧州,スイス,https://www.evalueserve.com/product/patent-research-platform-insightloupe/,スイスに本社を置く調査・分析会社。特許調査の受託で大手の一角を占め、AIを使った特許・非特許のランドスケープ分析基盤Insightloupeを提供する。,,0,0,active,2026-10,2026-10-03,

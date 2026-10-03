@@ -1,0 +1,46 @@
+﻿vendor,action,cat_id,source_or_note
+トヨタテクニカルディベロップメント,新規追加,,toyota-td.jp/business/ip/service（知財サービス一覧）、news/files/2025_083.pdf（AI Ninja発表 2025-11）
+ClaimHit,新規追加,,claimhit.com（Patent-to-Market Intelligence）
+PatentWatch,新規追加,,patentwatch.ai、legaltech.ca 2026-05-28、dealroom（シード280万ドル）
+BlackBox IP,新規追加,,blackboxip.com、ipwatchdog.com ウェビナー告知（2026-10-20）
+Black Hills IP,新規追加,,"blackhills.ai（Otto IP）、所在地は公開企業情報（Minneapolis, MN）"
+Evalueserve,新規追加,,evalueserve.com（Insightloupe、IP and R&D solutions）
+NLPatent→Clerq,社名変更・紹介文更新,,betakit.com：NLPatent rebrands to Clerq（2026-08-18）
+IPdash Intelligence→IPdash東京特許事務所,名称修正（ブランド名→事業者名）・URL更新,,prtimes 000000001.000188218：IPdash IntelligenceはIPdash東京特許事務所のソフトウェアサービスブランド
+アイパクトリ,地域修正（日本→アジア・他／韓国）・URL登録・紹介文更新,,pr-free.jp/2024/109134：株式会社アイパクトリ（本社：韓国ソウル、代表取締役：ユ・ジャンヒョン）
+AI特許翻訳,URL登録・紹介文更新,,ipforce.jp 2026-02-18：AI翻訳×熟練翻訳者の校正による特許翻訳サービスを本格展開
+AI Samurai,補記（親会社）,,toyota-td.jp/news/files/2025_032.pdf：AI Samuraiの完全子会社化（2025-06-03）
+FoundationIP,統合扱い（Clarivate の製品）,,clarivate.com/intellectual-property：FoundationIP（Cloud based IP practice management）を自社製品として掲載
+トヨタテクニカルディベロップメント,追加（新規社）,02,prtimes 000000039.000070679：AI Ninja Innovation（発明検討支援・提案書）
+トヨタテクニカルディベロップメント,追加（新規社）,07,toyota-td.jp：AI Ninja LandScape（政策・論文・特許の定量分析）
+トヨタテクニカルディベロップメント,追加（新規社）,17,toyota-td.jp：特許調査・解析（IPランドスケープ、技術動向調査）の受託
+トヨタテクニカルディベロップメント,追加（新規社）,01,prtimes 000000039.000070679：アイデア整理・作用効果整理
+トヨタテクニカルディベロップメント,追加（新規社）,03,prtimes 000000039.000070679：検索式の自動生成・従来技術検索
+ClaimHit,追加（新規社）,12,claimhit.com：侵害検知・実施の証拠・クレームチャート
+ClaimHit,追加（新規社）,14,claimhit.com：ライセンス交渉向けの侵害企業の特定
+PatentWatch,追加（新規社）,12,patentwatch.ai：根拠つきクレームチャート
+PatentWatch,追加（新規社）,16,patentwatch.ai：標準必須特許（SEP）の対応付け
+PatentWatch,追加（新規社）,03,patentwatch.ai：先行技術・有効性の分析
+PatentWatch,追加（新規社）,14,dealroom：侵害検知から収益化（ライセンス）まで
+BlackBox IP,追加（新規社）,09,blackboxip.com：IDS管理・特許期間調整・米国特許庁とのやりとりの自動化
+BlackBox IP,追加（新規社）,05,blackboxip.com：拒絶理由通知への応答の雛形（rSHELL）
+Black Hills IP,追加（新規社）,09,blackhills.ai：期限管理・年金更新・IDS管理の自動化（Otto IP）
+Black Hills IP,追加（新規社）,05,blackhills.ai：拒絶理由通知の分析
+Evalueserve,追加（新規社）,17,evalueserve.com：特許調査の受託（IP and R&D solutions）
+Evalueserve,追加（新規社）,07,evalueserve.com：Insightloupe（特許・非特許のランドスケープ分析）
+Evalueserve,追加（新規社）,03,evalueserve.com：AIを調整した特許検索
+Clerq,追加,02,betakit.com：発明届出の一次評価（triage of invention disclosures）
+アイパクトリ,追加,06,pr-free.jp/2024/109134：IPEDIT translate（特許翻訳）
+アイパクトリ,追加,02,pr-free.jp/2024/109134：発明提案書の作成から明細書・請求項の生成まで
+トヨタテクニカルディベロップメント,導入条件の追加（ja）,,あり：国内企業
+トヨタテクニカルディベロップメント,導入条件の追加（trial）,,未確認：2026年3月末まで期間限定の無料トライアル（2週間・5名まで）を実施（終了）
+ClaimHit,導入条件の追加（no_training）,,あり：AIモデル提供元はゼロデータリテンション、またはAPI経由の学習なしと明記
+ClaimHit,導入条件の追加（pricing）,,あり：1特許のパイロット99ドル（30日返金保証）、以降はクレジット制
+ClaimHit,導入条件の追加（trial）,,未確認：試用は有料（99ドル・返金保証つき）
+ClaimHit,導入条件の追加（ja）,,未確認：日本・中国・韓国の特許にはEPOの翻訳経由で対応。日本語の窓口は未確認
+Black Hills IP,導入条件の追加（no_training）,,あり：閉じたAI環境とゼロデータリテンションで、機密情報を公開AIモデルの学習に使わないと明記
+Black Hills IP,導入条件の追加（trial）,,あり：Otto IPの無料トライアル
+アイパクトリ,導入条件の修正（ja）,,未確認：日本語の発表資料はある（本社は韓国ソウル）。日本語の窓口・日本法人は未確認
+AI特許翻訳,導入条件の修正（ja）,,あり：国内企業
+IPdash東京特許事務所,導入条件の修正（ja）,,あり：国内企業
+トヨタテクニカルディベロップメント,出展記録の追加,,子会社AI Samuraiと共同出展。生成AIを使った知財業務支援システムを紹介（response.jp 2026-08-28）

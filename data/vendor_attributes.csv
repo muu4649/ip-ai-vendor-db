@@ -11,7 +11,7 @@ V003,ja,あり,https://aidao-pjt.com/,2026-09-27,国内企業
 V003,pricing,あり,https://aidao-pjt.com/news/%E7%A0%94%E4%BF%AE%E8%B2%BB%E4%BE%A1%E6%A0%BC%E6%94%B9%E5%AE%9A%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/,2026-09-27,研修費40万円（税込、2025年4月改定）
 V004,ja,あり,https://aivisor.co.jp/,2026-09-27,国内企業
 V004,onprem,あり,https://portal.aimeet.jp/events/pifc2026/exhibitors,2026-09-27,国内サーバーで完結（知財・情報フェア2026の出展者情報）
-V005,ja,あり,https://portal.aimeet.jp/events/pifc2026/exhibitors,2026-09-27,国内企業（公式サイト未確認。知財・情報フェア2026の出展者情報）
+V005,ja,あり,https://iptrans.jp/,2026-10-03,国内企業
 V006,ja,あり,https://www.asu.co.jp/,2026-09-27,国内企業
 V006,trial,未確認,https://www.asu.co.jp/seminar/entry-1518.html,2026-09-27,トライアル申込の案内はあるが、無料かどうかの記載なし
 V008,trial,あり,https://www.altlegal.com/,2026-09-27,無料トライアルの申込を受付
@@ -66,7 +66,7 @@ V041,no_training,あり,https://ip8.patseer.com,2026-09-27,データをAIモデ�
 V042,no_training,あり,https://www.iprally.com/,2026-09-27,検索・起案の内容を自社・LLM提供元とも保存しない（ゼロデータリテンション）と明記
 V042,trial,あり,https://www.iprally.com/pricing,2026-09-27,無料トライアルあり（対象の条件あり）
 V043,ja,あり,https://iptech.jp/,2026-09-27,国内企業
-V044,ja,あり,https://ipdash.jp/,2026-09-27,国内企業
+V044,ja,あり,https://ipdash.tokyo/rivalseeker/,2026-10-03,国内企業
 V045,ja,あり,https://www.ipoasis.co.jp/,2026-09-27,国内企業
 V045,trial,あり,https://ipoasis.co.jp/,2026-09-27,デモ版の無料体験
 V046,ja,あり,https://iprich.jp/,2026-09-27,国内企業
@@ -141,7 +141,7 @@ V102,onprem,あり,https://rootip.co.jp/about/security,2026-09-27,AWSの東京�
 V102,trial,あり,https://rootip.co.jp/,2026-09-27,無料トライアル
 V102,pricing,あり,https://rootip.co.jp/,2026-09-27,初期費用44万円から、月額1.65万円から（税込）
 V103,ja,あり,https://www.wertcorp.com/ja/main,2026-09-27,日本語サイトあり
-V105,ja,あり,https://portal.aimeet.jp/events/pifc2026/exhibitors,2026-09-27,国内企業（公式サイト未確認。知財・情報フェア2026の出展者情報）
+V105,ja,未確認,https://pr-free.jp/2024/109134/,2026-10-03,日本語の発表資料はある（本社は韓国ソウル）。日本語の窓口・日本法人は未確認
 V106,ja,あり,https://www.ibr.co.jp/,2026-09-27,国内企業
 V106,onprem,あり,https://www.ibr.co.jp/,2026-09-27,イントラネット内・スタンドアロン環境で動くローカルLLM（CPUのみ）
 V107,ja,あり,https://www.ird.co.jp/,2026-09-27,国内企業
@@ -214,3 +214,11 @@ V148,ja,あり,https://www.honyakuctr.com/,2026-09-27,国内企業
 V149,ja,あり,https://www.dentsusoken.com/,2026-09-27,国内企業
 V150,ja,あり,https://www.washidapat.com/,2026-09-27,国内企業
 V153,ja,あり,https://triart.co.jp/,2026-09-27,国内企業
+V154,ja,あり,https://www.toyota-td.jp/business/ip/service/,2026-10-03,国内企業
+V154,trial,未確認,https://prtimes.jp/main/html/rd/p/000000039.000070679.html,2026-10-03,2026年3月末まで期間限定の無料トライアル（2週間・5名まで）を実施（終了）
+V155,ja,未確認,https://www.claimhit.com/faq,2026-10-03,日本・中国・韓国の特許にはEPOの翻訳経由で対応。日本語の窓口は未確認
+V155,no_training,あり,https://www.claimhit.com/security,2026-10-03,AIモデル提供元はゼロデータリテンション、またはAPI経由の学習なしと明記
+V155,trial,未確認,https://www.claimhit.com/,2026-10-03,試用は有料（99ドル・返金保証つき）
+V155,pricing,あり,https://www.claimhit.com/,2026-10-03,1特許のパイロット99ドル（30日返金保証）、以降はクレジット制
+V158,no_training,あり,https://blackhills.ai/security-center/,2026-10-03,閉じたAI環境とゼロデータリテンションで、機密情報を公開AIモデルの学習に使わないと明記
+V158,trial,あり,https://blackhills.ai/otto-ip/free-demo/,2026-10-03,Otto IPの無料トライアル
