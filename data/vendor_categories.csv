@@ -78,7 +78,7 @@ V028,13,主,カオスマップ2026.9の配置,2026-09-17
 V029,13,副,紹介文・drugpatentwatch.com：Orange Book/Purple Bookと訴訟データを結合,2026-09-27
 V029,16,主,カオスマップ2026.9の配置,2026-09-17
 V030,04,主,カオスマップ2026.9の配置,2026-09-17
-V030,06,副,紹介文・tryedge.io：図面エディタを統合,2026-09-27
+V030,06,副,withedge.com：Ingenia の Figures（patent-focused figure editor）,2026-11-09
 V031,09,主,カオスマップ2026.9の配置,2026-09-17
 V032,10,主,カオスマップ2026.9の配置,2026-09-17
 V033,10,副,brandsecurity.gmo：商標管理ツールBRANTECT byGMO,2026-09-27
@@ -107,7 +107,7 @@ V040,03,副,ip.com：InnovationQによる特許・非特許文献検索,2026-09-
 V041,07,副,紹介文・ip8.ai：ポートフォリオを仕分ける分析,2026-09-27
 V041,12,主,カオスマップ2026.9の配置,2026-09-17
 V042,03,主,カオスマップ2026.9の配置,2026-09-17
-V042,07,副,"iprally.com：AI Patent Search, Review & Classification",2026-09-27
+V042,07,副,iprally.com：Intelligence（Competitive Intelligence、Portfolio Analysis）,2026-11-09
 V043,04,副,2026知財・情報フェア出展社情報：生成AIを活用した明細書作成・先行技術調査・中間対応,2026-09-27
 V043,05,主,カオスマップ2026.9の配置,2026-09-17
 V044,07,主,カオスマップ2026.9の配置,2026-09-17
@@ -347,7 +347,7 @@ V141,17,副,2026知財・情報フェア出展社情報：Japio-GPG/FXの高精�
 V142,03,主,カオスマップ2026.9の配置,2026-09-17
 V142,07,副,hitachi-sis.co.jp：ShareresearchはPALNET/MC6と連携し競合特許戦略の分析・侵害チェックを支援,2026-09-27
 V142,09,主,カオスマップ2026.9の配置,2026-09-17
-V143,07,主,カオスマップ2026.9の配置,2026-09-17
+V143,07,主,cloud.watch.impress.co.jp 2140633：Shareresearch の AI要約（技術分野・対象技術・課題・解決手段）,2026-11-09
 V143,09,副,hitachi.co.jp/Prod/comp/app/tokkyo/mc6：知的財産管理システムPALNET/MC6を提供,2026-09-27
 V144,07,副,2026知財・情報フェア出展社情報：IPeakMSに特許価値評価と知財ROICによる無形資産の可視化を参考出展,2026-09-27
 V144,08,副,2026知財・情報フェア出展社情報：IPeakMSに特許価値評価と知財ROICによる無形資産の可視化を参考出展,2026-09-27
@@ -401,3 +401,9 @@ V159,03,副,evalueserve.com：AIを調整した特許検索,2026-10-03
 V058,02,副,betakit.com：発明届出の一次評価（triage of invention disclosures）,2026-10-03
 V105,06,副,pr-free.jp/2024/109134：IPEDIT translate（特許翻訳）,2026-10-03
 V105,02,副,pr-free.jp/2024/109134：発明提案書の作成から明細書・請求項の生成まで,2026-10-03
+V160,05,主,juristat.com：Office action responses ... built from the prosecution record,2026-11-09
+V160,07,主,"juristat.com：examiners, portfolios, prosecution trends, and competitors の分析",2026-11-09
+V160,09,副,juristat.com：IDS preparation の自動化,2026-11-09
+V030,10,副,withedge.com：Certus（AI trademark clearance and search）,2026-11-09
+V042,04,副,iprally.com：Protection（Patent Drafting、prior-art-aware drafting）,2026-11-09
+V143,03,副,cloud.watch.impress.co.jp 2140633：AI検索（チャットで検索条件を整理し、一致度順に提示）,2026-11-09

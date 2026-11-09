@@ -28,7 +28,7 @@ V026,DeepIP,北米,米国,https://www.deepip.ai/,Wordアドイン型で既存ワ
 V027,Dennemeyer,欧州,ルクセンブルク,https://www.dennemeyer.com/,ルクセンブルクのIP管理・年金管理大手。DIAMS Infinityを軸に、買収した分析機能で可視化を強化した。,,0,1,active,2026-09,2026-09-17,
 V028,Docket Navigator,北米,米国,https://www.docketnavigator.com/,米国知財訴訟の書面と判断を日次で追える調査サービス。,,0,0,active,2026-09,2026-09-17,
 V029,DrugPatentWatch,北米,米国,https://www.drugpatentwatch.com/,FDAのOrange Book/Purple Bookと訴訟データを結合。後発品参入時期の予測に用いられる。,,0,0,active,2026-09,2026-09-17,
-V030,Edge,北米,米国,https://www.tryedge.io/,高速なドラフト生成と図面エディタを統合。図面と本文の整合を取りながら書ける。,,0,0,active,2026-09,2026-09-17,
+V030,Edge,北米,米国,https://www.withedge.com/,AIの特許明細書作成ツールIngeniaと、AIの商標調査ツールCertusを提供。Ingeniaは特許向けの図面エディタを備え、図面と本文をそろえながら書ける。,,0,0,active,2026-09,2026-11-09,"運営はEdge Innovations, Inc.。tryedge.io は同名の決済サービスのサイトで別会社"
 V031,FoundationIP,北米,米国,https://www.cpaglobal.com/,クラウド型IPMS。中小の事務所から企業まで、ライフサイクル全体を一つで扱う。,,0,0,merged,2026-09,2026-10-03,Clarivate の知財管理製品の一つ。社名で掲載する方針により Clarivate に統合扱い（2026-10-03）
 V032,Fovea IP,欧州,ベルギー,https://www.foveaip.com/,ベルギー発。Lighthouse IPのデータを基盤に、197の国・機関の商標と101の意匠を単一プラットフォームで検索・監視する。,,0,1,active,2026-09,2026-09-17,
 V033,GMOブランドセキュリティ,日本,日本,https://brandsecurity.gmo/,商標・ドメインの一元管理となりすまし対策。知財情報管理システムも提供する。,,0,1,active,2026-09,2026-09-27,
@@ -40,7 +40,7 @@ V038,INXI,日本,日本,https://www.inxi.co.jp/,Red PointsとApiraSolの日本�
 V039,IP-RoBo,日本,日本,https://ip-robo.co.jp/tm-robo/,商標調査AI「TM-RoBo」。特許庁と裁判所の過去の判断を機械学習し、全登録商標との類似度をスコア化する。2019年12月に結合商標の判定機能を発表。形態素解析では商標の造語を扱えないため独自手法を採り、開発に2年を要した。代表の岩原将文氏はAI研究者と弁護士の二つの経歴を持つ。,,0,1,active,2026-09,2026-09-27,
 V040,IP.com,北米,米国,https://ip.com/,発明創出を構造化するIQ Ideas+を提供。新規性を定量評価しながら発明開示書まで仕上げる。,,0,0,active,2026-09,2026-09-17,
 V041,IP8,北米,米国,https://ip8.ai/,ポートフォリオ管理と侵害検知を接続し、使える特許と使えない特許を仕分ける。,,0,0,active,2026-09,2026-09-17,
-V042,IPRally,欧州,フィンランド,https://www.iprally.com/,フィンランド発。特許を知識グラフに変換して探す設計で、なぜ似ているかを説明できる検索を志向。,,0,1,active,2026-09,2026-09-17,
+V042,IPRally,欧州,フィンランド,https://www.iprally.com/,フィンランド発。特許を知識グラフに変換して探す検索を中心に、競合・ポートフォリオ分析（Intelligence）と、先行技術を踏まえた明細書作成（Protection）を提供する。MCPとAPIで外部のAIや自社システムからも使える。,クラウド（API／MCP接続可）,1,1,active,2026-09,2026-11-09,
 V043,IPTech弁理士法人,日本,日本,https://iptech.jp/,生成AIを前提に実務を組み替えている特許事務所。IT分野とスタートアップ支援に強い。,,0,0,active,2026-09,2026-09-17,
 V044,IPdash東京特許事務所,日本,日本,https://ipdash.tokyo/rivalseeker/,他社分析AI「Rival Seeker」を、ソフトウェアブランドIPdash Intelligenceで提供する特許事務所。企業を開発チーム単位まで分解して技術動向を追う。,,0,1,active,2026-09,2026-10-03,IPdash Intelligence は同所のソフトウェアサービスのブランド名
 V045,IPオアシス,日本,日本,https://www.ipoasis.co.jp/,知財管理クラウド「IP Oasisクラウド」を提供。実際の業務フローに沿った実機デモを軸に導入を進める。,,0,1,active,2026-09,2026-09-17,
@@ -141,7 +141,7 @@ V139,日本アイアール,日本,日本,https://nihon-ir.jp/,調査・分析、
 V140,日本パテントデータサービス,日本,日本,https://www.jpds.co.jp/,検索のJP-NET／NewCSS、分析のぱっとマイニングJP、管理のIP Drive、商標のBrand Mark Searchを揃える国内総合ベンダー。,,0,0,active,2026-09,2026-09-17,
 V141,日本特許情報機構,日本,日本,https://www.japio.or.jp/,世界特許全文検索Japio-GPG/FXと特許特化AI翻訳、他社商標を自動検知する商標スキャナーを提供する。,,0,1,active,2026-09,2026-09-17,
 V142,日立社会情報サービス,日本,日本,https://www.hitachi-sis.co.jp/,95カ国の特許情報を扱うShareresearchと、知財管理システムPALNET/MC6を提供する。,,0,0,active,2026-09,2026-09-17,
-V143,日立製作所,日本,日本,https://www.hitachi.co.jp/,AIテキスト解析で特許をグラフ化する特許情報分析サービスを提供。グループ各社と連携して知財DXを支援する。,,0,0,active,2026-09,2026-09-17,
+V143,日立製作所,日本,日本,https://www.hitachi.co.jp/Prod/comp/app/tokkyo/sr/index.html,特許情報提供サービスShareresearchを提供。2026年10月に生成AIの「AI要約」（技術分野・対象技術・課題・解決手段の4観点で整理）と「AI検索」（チャットで検索条件を整理し、一致度の順に示す）を加えた。知的財産管理システムPALNET/MC6も持つ。,,0,1,active,2026-09,2026-11-09,
 V144,東芝,日本,日本,https://www.global.toshiba/jp/products-solutions/business-ict/patent.html,知財管理サービスIPeakMSを提供。特許価値評価と知財ROICによる無形資産の可視化を進める。,,0,1,active,2026-09,2026-09-17,
 V145,発明通信社,日本,日本,https://www.hatsumei.co.jp/,特許情報検索HYPAT-i2と知財管理サービスIPeakMSを提供。調査から管理までを幅広く扱う。,,0,0,active,2026-09,2026-09-17,
 V146,知財コーポレーション,日本,日本,https://www.chizai.jp/,1976年創立の特許翻訳大手。AIと専門家を組み合わせたハイブリッドサービスに移行中。,,0,0,active,2026-09,2026-09-27,
@@ -158,3 +158,4 @@ V156,PatentWatch,北米,カナダ,https://www.patentwatch.ai/,トロント発、
 V157,BlackBox IP,北米,米国,https://blackboxip.com/,ニューヨーク拠点。IDS（情報開示陳述書）の文献管理、拒絶理由通知への応答の雛形、特許期間調整の計算などの特許事務を、AI・機械学習で自動化する。,,0,0,active,2026-10,2026-10-03,
 V158,Black Hills IP,北米,米国,https://blackhills.ai/,ミネアポリス拠点で、Black Hills AIの名でも展開する。期限管理・年金更新・IDS管理を、自社のAIツールOtto IPと決定論的な自動化で処理し、パラリーガル業務も受託する。,,0,0,active,2026-10,2026-10-03,Black Hills AI の名称でも展開
 V159,Evalueserve,欧州,スイス,https://www.evalueserve.com/product/patent-research-platform-insightloupe/,スイスに本社を置く調査・分析会社。特許調査の受託で大手の一角を占め、AIを使った特許・非特許のランドスケープ分析基盤Insightloupeを提供する。,,0,0,active,2026-10,2026-10-03,
+V160,Juristat,北米,米国,https://juristat.com/,米国特許庁の20年以上の審査データを使う審査分析の会社。審査官・審査部門ごとの登録や拒絶の傾向を分析し、審査経過から拒絶理由通知への応答とIDS（情報開示陳述書）の準備を自動化する。審査データをMCPで生成AIに渡すData Layerも提供する。,クラウド（MCP接続可）,1,1,active,2026-11,2026-11-09,セントルイスで創業。成長投資を受けてコネチカット州ニューヘイブンへの本社移転を発表（移転の完了は未検証）

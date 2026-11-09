@@ -45,6 +45,7 @@ V028,trial,あり,https://brochure.docketnavigator.com/pricing/,2026-09-27,無�
 V028,pricing,あり,https://brochure.docketnavigator.com/pricing/,2026-09-27,ライブラリ単位の料金例（4〜9ユーザーで月額330ドル）
 V029,trial,あり,https://www.drugpatentwatch.com/,2026-09-27,無料トライアルの案内（料金ページには1週間499ドルの試用もある）
 V029,pricing,あり,https://www.drugpatentwatch.com/pricing/,2026-09-27,"1ユーザー月額3,000ドル（年額24,000ドル）など"
+V030,no_training,あり,https://www.withedge.com/,2026-11-09,"「No training on your data, period.」と明記"
 V032,ja,あり,https://www.foveaip.com/ja/,2026-09-27,日本語サイトあり
 V032,trial,あり,https://www.foveaip.com/,2026-09-27,フリートライアル
 V032,pricing,未確認,https://www.foveaip.com/downloads/price-guide/,2026-09-27,料金表は資料ダウンロード（フォーム経由）で提供
@@ -202,6 +203,7 @@ V141,ja,あり,https://www.japio.or.jp/,2026-09-27,国内企業
 V141,pricing,あり,https://www.japio.or.jp/service/serviceD1_01.html,2026-09-27,"調査サービスの料金表を公開（意匠権調査1件84,700円など）"
 V142,ja,あり,https://www.hitachi-sis.co.jp/,2026-09-27,国内企業
 V143,ja,あり,https://www.hitachi.co.jp/,2026-09-27,国内企業
+V143,trial,あり,https://www.hitachi.co.jp/Prod/comp/app/tokkyo/sr/index.html,2026-11-09,Shareresearch の無料で試せるIDを発行
 V144,ja,あり,https://www.global.toshiba/jp/products-solutions/business-ict/patent.html,2026-09-27,国内企業
 V145,ja,あり,https://www.hatsumei.co.jp/,2026-09-27,国内企業
 V145,pricing,あり,https://www.hatsumei.co.jp/japio_gpgfx/,2026-09-27,"Japio-GPG/FX関連サービス月額31,500円（1ID）など"
@@ -222,3 +224,5 @@ V155,trial,未確認,https://www.claimhit.com/,2026-10-03,試用は有料（99�
 V155,pricing,あり,https://www.claimhit.com/,2026-10-03,1特許のパイロット99ドル（30日返金保証）、以降はクレジット制
 V158,no_training,あり,https://blackhills.ai/security-center/,2026-10-03,閉じたAI環境とゼロデータリテンションで、機密情報を公開AIモデルの学習に使わないと明記
 V158,trial,あり,https://blackhills.ai/otto-ip/free-demo/,2026-10-03,Otto IPの無料トライアル
+V160,trial,あり,https://resources.juristat.com/juristat-data-layer-trial,2026-11-09,Data Layer（MCP）の14日間無料トライアル（年25件以上の特許出願がある個人が対象）
+V160,pricing,未確認,https://juristat.com/,2026-11-09,個人向けのSolo tierを案内しているが、金額は公式サイトで確認できなかった

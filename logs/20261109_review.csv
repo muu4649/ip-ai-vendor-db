@@ -1,0 +1,18 @@
+﻿vendor,action,cat_id,source_or_note
+Juristat,新規追加,,juristat.com（Analytics／Workflow automation／Data layer (MCP)）、help.juristat.com 14668917（Data Layer MCP）、ipwatchdog.com 2026-11-05（Xsensus が Data Layer を採用）
+Edge,URL修正・紹介文更新,,withedge.com：Ingenia（AI patent drafting）・Certus（AI trademark clearance）。tryedge.io は Edge Payment Technologies（決済サービス）
+IPRally,紹介文更新・MCP対応,,iprally.com：Protection（Patent Drafting、New）、MCP & API。news 2026-11-02：IPRally MCP がコレクション・検索ケース・エージェントの実行結果を読めるようになった
+日立製作所,紹介文更新・URL変更（Shareresearch の製品ページ）,,cloud.watch.impress.co.jp/docs/news/2140633.html：AI要約・AI検索を2026年10月5日から提供（9月15日発表）
+Juristat,追加（新規社）,05,juristat.com：Office action responses ... built from the prosecution record
+Juristat,追加（新規社）,07,"juristat.com：examiners, portfolios, prosecution trends, and competitors の分析"
+Juristat,追加（新規社）,09,juristat.com：IDS preparation の自動化
+Edge,追加,10,withedge.com：Certus（AI trademark clearance and search）
+IPRally,追加,04,iprally.com：Protection（Patent Drafting、prior-art-aware drafting）
+日立製作所,追加,03,cloud.watch.impress.co.jp 2140633：AI検索（チャットで検索条件を整理し、一致度順に提示）
+Edge,根拠の更新,06,withedge.com：Ingenia の Figures（patent-focused figure editor）
+IPRally,根拠の更新,07,iprally.com：Intelligence（Competitive Intelligence、Portfolio Analysis）
+日立製作所,根拠の更新,07,cloud.watch.impress.co.jp 2140633：Shareresearch の AI要約（技術分野・対象技術・課題・解決手段）
+Juristat,導入条件の追加（trial）,,あり：Data Layer（MCP）の14日間無料トライアル（年25件以上の特許出願がある個人が対象）
+Juristat,導入条件の追加（pricing）,,未確認：個人向けのSolo tierを案内しているが、金額は公式サイトで確認できなかった
+Edge,導入条件の追加（no_training）,,"あり：「No training on your data, period.」と明記"
+日立製作所,導入条件の追加（trial）,,あり：Shareresearch の無料で試せるIDを発行
